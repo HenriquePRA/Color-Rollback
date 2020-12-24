@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/HenriquePRA/Color-Rollback/issues"
   },
-  "homepage": "https://github.com/HenriquePRA/Color-Rollback#readme"
+  "homepage": "https://github.com/HenriquePRA/Color-Rollback#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "webpack-cli": "^4.2.0"
+  }
 }
