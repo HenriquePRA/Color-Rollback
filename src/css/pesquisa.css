@@ -1,6 +1,18 @@
 .blocopesquisa {
+    display: flex;
     margin-top: 3rem;
     background-color: rgba(34, 40, 49, 0.7);
     height: 3rem;
     border-radius: .5rem;
+    flex-direction: row;
+}
+
+.blocopesquisa input {
+    width: 25rem;
+}
+.blocopesquisa .addNome {
+    width: 100%;
+}
+.blocopesquisa #pesquisaTxt {
+    margin: auto;
 }
