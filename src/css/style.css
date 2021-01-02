@@ -123,37 +123,45 @@ body {
 .card-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0 10px 10px 10px;
 }
 
 .cartao {
-    height: 350px;
+    height: 200px;
     width: 297px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     margin-top: 10px;
     border-radius: 0 0 5px 5px;
     background-color: #eeeeee;
+    display: flex;
 }
 
 .card_imagem {
-    overflow: hidden;
     display: flex;
     background-color: #171332;
 }
 
 .card_imagem img{
+    width: 130px;
+    height: 180px;
     margin: auto;
 }
 
 .card_titulo {
+    background-color: #cf9b96;
     font-size: 16px;
     font-weight: 600;
     padding: 5px;
     display: flex;
 }
+
 .card_titulo p {
-    margin: auto;
+    margin: 10px auto;
+}
+
+.longtitle p {
+    margin: 0 auto;
 }
 
 .card_descricao {
@@ -164,7 +172,7 @@ body {
 
 .card_descricao p {
     display: flex;
-    margin: 0;
+    margin: auto;
 }
 
 .card {

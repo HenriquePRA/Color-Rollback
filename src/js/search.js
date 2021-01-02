@@ -7,7 +7,8 @@ const search = async (nome, limite) => {
         const linkDeBusca_1 = await new Promise(resolve => {
 
             let linkDeBusca = "https://www.googleapis.com/books/v1/volumes?q=" + nome
-            if (limite !== undefined) linkDeBusca += "&max-results=" + limite
+            if (limite !== undefined) linkDeBusca += "&maxResults=" + limite
+            console.log(linkDeBusca)
             resolve(linkDeBusca)
 
         })

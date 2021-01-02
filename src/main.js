@@ -1,6 +1,17 @@
+const resetContainer = (headerName) => {
+    const header = document.querySelector("#displayHeader").firstElementChild
+    header.innerHTML = headerName
+    const CardsContainer = document.querySelector("#displayCards")
+    CardsContainer.innerHTML = ""
+}
+
 window.onload = () => {
     search("programming", 9).then((ret) => {
-
+        console.log(ret)
+        resetContainer("Popular sobre Programação")
+        ret.forEach(livro => {
+            pushCard(livro.volumeInfo)
+        });
     })
 }
 
@@ -13,7 +24,6 @@ navBarSearchbtn.addEventListener("click", (e) => {
     const texto = navbarInput.value
     search(texto)
 })
-
 
 // Mais avaliados
 const maisAvaliadosBtn = document.querySelector("#maisAvaliados");
