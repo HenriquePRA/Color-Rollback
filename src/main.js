@@ -5,4 +5,5 @@ const navBarSearchbtn = document.querySelector("#navBarSearchbtn")
 navBarSearchbtn.addEventListener("click", (e) => {
     e.preventDefault()
     const texto = navbarInput.value
+    console.log("clic pesquisar")
 })
