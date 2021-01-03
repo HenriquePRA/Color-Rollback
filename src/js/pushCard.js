@@ -2,6 +2,7 @@
 const pushCard = (livro) => {
     const cartao = document.createElement("div");
     cartao.className = "cartao";
+    cartao.id = livro.id
 
     // thumbnail
     const cardimg = document.createElement("div");
@@ -18,7 +19,18 @@ const pushCard = (livro) => {
     // titulo
     const cardtitle = document.createElement("div");
     const title = document.createElement("p");
-    title.innerHTML = livro.volumeInfo.title;
+    let sub_title = "";
+    if (livro.volumeInfo.title) { 
+        for (let i = 0; i < 55; i++) {
+            if (livro.volumeInfo.title[i] !== undefined) {
+                sub_title += livro.volumeInfo.title[i];
+            }
+        }
+        if (livro.volumeInfo.title.length > 55) sub_title += "..."
+    } else {
+        sub_title = "Livro sem Título"
+    }
+    title.innerHTML = sub_title;
 
     if (livro.volumeInfo.title.length > 26) {
         cardtitle.classList.add("longtitle")

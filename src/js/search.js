@@ -26,3 +26,11 @@ const search = async (nome, limite) => {
         }
     }
 }
+
+const idSearch = async (id) => {
+    if (!id) {
+        alert("Erro ao abrir o livro, recarregue a página ou tente novamente !")
+    } else {
+        let linkDeBusca = "https://www.googleapis.com/books/v1/volumes/" + id
+    }
+}

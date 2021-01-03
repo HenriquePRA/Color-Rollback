@@ -5,7 +5,6 @@
 
 body {
     background: url(../img/background.jpg);
-    background-size: auto contain;
     background-repeat: no-repeat;
     background-position: top center;
 }
@@ -129,6 +128,7 @@ body {
 }
 
 .cartao {
+    cursor: pointer;
     height: 200px;
     width: 297px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -136,6 +136,10 @@ body {
     background-color: #eeeeee;
     display: flex;
     overflow: hidden;
+}
+
+.cartao:hover, .cartao:focus {
+    opacity: .75;
 }
 
 .card_imagem {
@@ -150,7 +154,9 @@ body {
 }
 
 .card_titulo {
-    background-color: #cf9b96;
+    height: 60px;
+    overflow: hidden;
+    background-color: #dddddd;
     font-size: 16px;
     font-weight: 600;
     padding: 5px;
@@ -158,11 +164,7 @@ body {
 }
 
 .card_titulo p {
-    margin: 10px auto;
-}
-
-.longtitle p {
-    margin: 0 auto;
+    margin: auto;
 }
 
 .card_descricao {
@@ -207,9 +209,6 @@ body {
     .cartao {
         width: 415px;
     }
-    .longtitle p {
-        margin: 10px auto;
-    }
 }
 
 @media screen and (max-width: 991px) {
@@ -237,9 +236,6 @@ body {
     }
 
     .card_titulo p {
-        margin: 0 auto;
-    }
-    .longtitle p {
         margin: 0 auto;
     }
 }
