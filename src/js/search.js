@@ -8,7 +8,6 @@ const search = async (nome, limite) => {
 
             let linkDeBusca = "https://www.googleapis.com/books/v1/volumes?q=" + nome
             if (limite !== undefined) linkDeBusca += "&maxResults=" + limite
-            console.log(linkDeBusca)
             resolve(linkDeBusca)
 
         })

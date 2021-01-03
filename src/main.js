@@ -22,7 +22,12 @@ const navBarSearchbtn = document.querySelector("#navBarSearchbtn")
 navBarSearchbtn.addEventListener("click", (e) => {
     e.preventDefault()
     const texto = navbarInput.value
-    search(texto)
+    search(texto).then((ret) => {
+        resetContainer("Resultados da Pesquisa: " + texto)
+        ret.forEach(livro => {
+            pushCard(livro.volumeInfo)
+        })
+    })
 })
 
 // Mais avaliados
