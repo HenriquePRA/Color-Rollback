@@ -6,11 +6,11 @@ const resetContainer = (headerName) => {
 }
 
 window.onload = () => {
-    search("programming", 9).then((ret) => {
+    search("programming", 24).then((ret) => {
         console.log(ret)
         resetContainer("Popular sobre Programação")
         ret.forEach(livro => {
-            pushCard(livro.volumeInfo)
+            pushCard(livro)
         });
     })
 }
@@ -23,9 +23,11 @@ navBarSearchbtn.addEventListener("click", (e) => {
     e.preventDefault()
     const texto = navbarInput.value
     search(texto).then((ret) => {
-        resetContainer("Resultados da Pesquisa: " + texto)
-        ret.forEach(livro => {
-            pushCard(livro.volumeInfo)
+        search(texto).then((ret) => {
+            resetContainer("Resultados da Pesquisa: " + texto)
+            ret.forEach(livro => {
+                pushCard(livro)
+            })
         })
     })
 })

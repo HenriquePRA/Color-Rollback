@@ -6,20 +6,21 @@ const pushCard = (livro) => {
     // thumbnail
     const cardimg = document.createElement("div");
     const img = document.createElement("img");
-    img.src=livro.imageLinks.thumbnail;
+    img.src=livro.volumeInfo.imageLinks.thumbnail;
 
     cardimg.className = "card_imagem";
     cardimg.appendChild(img);
 
     // txt container
     const txtContainer = document.createElement("div")
+    txtContainer.style.width = "100%"
 
     // titulo
     const cardtitle = document.createElement("div");
     const title = document.createElement("p");
-    title.innerHTML = livro.title;
+    title.innerHTML = livro.volumeInfo.title;
 
-    if (livro.title.length > 26) {
+    if (livro.volumeInfo.title.length > 26) {
         cardtitle.classList.add("longtitle")
     }
 
@@ -35,12 +36,17 @@ const pushCard = (livro) => {
     carddescricao.appendChild(descricao);
     
     let sub_descri = "";
-    if (livro.description) {
+    if (livro.volumeInfo.description) {
         for (let i = 0; i < 90; i++) {
-            sub_descri += livro.description[i];        
+            if (livro.volumeInfo.description[i]!== undefined) {
+                sub_descri += livro.volumeInfo.description[i]
+            }
         }
+        if (livro.volumeInfo.description.length > 90) sub_descri += "..."
+    } else {
+        sub_descri = livro.volumeInfo.title + ", não possúi descrição."
     }
-    sub_descri += "..."
+    
     descricao.innerHTML = sub_descri
 
     txtContainer.appendChild(cardtitle);

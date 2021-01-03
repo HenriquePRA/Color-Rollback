@@ -47,25 +47,33 @@ body {
 .form-inline .btn {
     margin-left: 1rem;
 }
+#navBarInput {
+    border-radius: 0;
+    border: 0px;
+    border-left: 2px solid #ffffff;
+    background-clip: initial;
+    background-color: #ffffff3d;
+}
+
+#navBarInput:focus {
+    background-color: #ffffffd3;
+    box-shadow: none;
+}
+
+#navBarSearchbtn {
+    padding: 0 0.75rem;
+    border-radius: 0;
+    height: 36px;
+}
 
 /*------------------------------------------ Area de navegacao -------------------------------------------- */
 
 .livros, .temas {
-    border-radius: 5px;
     background: rgba(34, 40, 49, 0.7);
-}
-
-.temas .card-container{
-    display: flex;
-}
-
-.temas .card{
-    margin-right: 10px;
 }
 
 .carrousel_head {
     color: white;
-    border-radius: 5px 5px 0 0;
     height: 40px;
     display: flex;
     background-color: #c70039;
@@ -116,8 +124,8 @@ body {
 .card-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 0 10px 10px 10px;
+    justify-content: space-evenly;
+    padding-bottom: .6rem;
 }
 
 .cartao {
@@ -125,7 +133,6 @@ body {
     width: 297px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     margin-top: 10px;
-    border-radius: .3rem;
     background-color: #eeeeee;
     display: flex;
     overflow: hidden;
@@ -171,11 +178,11 @@ body {
 
 .card {
     width: 265px;
-    margin: 10px 0 0 0 !important;
+    margin-top: .6rem;
 }
-
-
-
+.card, .card-footer:last-child {
+    border-radius: 0;
+}
 
 @media screen and (max-width: 1200px) {
     .card {
@@ -184,6 +191,7 @@ body {
     .cartao {
         width: 450px;
     }
+
 }
 
 @media screen and (min-width: 1201px) {
@@ -198,6 +206,9 @@ body {
     }
     .cartao {
         width: 415px;
+    }
+    .longtitle p {
+        margin: 10px auto;
     }
 }
 
@@ -218,6 +229,7 @@ body {
         margin: 10px;
         text-align: center;
     }
+    
 }
 @media screen and (max-width: 767px) {
     .cartao, .card {
