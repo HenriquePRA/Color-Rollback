@@ -15,7 +15,7 @@ window.onload = () => {
     })
 }
 
-// Barra de pesquisa
+// bloco de pesquisa
 const navbarInput = document.querySelector("#navBarInput");
 const navBarSearchbtn = document.querySelector("#navBarSearchbtn")
 
@@ -29,5 +29,11 @@ navBarSearchbtn.addEventListener("click", (e) => {
                 pushCard(livro)
             })
         })
+    })
+})
+
+document.querySelectorAll(".radiobtn").forEach(btn => {
+    btn.addEventListener("click", () => {
+        btn.firstElementChild.checked = true;
     })
 })

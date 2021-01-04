@@ -88,32 +88,15 @@ body {
 .bg-cor1 {
     background-color: #381460;
 }
-.bg-cor1:hover {
-    background-color: #2c104c;
-    cursor: pointer;
-}
 .bg-cor2 {
     background-color: #900c3f;
-}
-.bg-cor2:hover {
-    background-color: #730932;
-    cursor: pointer;
 }
 .bg-cor3 {
     background-color: #c70039;    
 }
-.bg-cor3:hover{
-    background-color: #9f002d;
-    cursor: pointer;
-}
 .bg-cor4 {
     background-color: #ff5733;
 }
-.bg-cor4:hover{
-    background-color: #f42b00;
-    cursor: pointer;
-}
-
 .border-c1{
     border-color: 1px 
 }
@@ -122,23 +105,45 @@ body {
 
 .blocopesquisa {
     display: flex;
-    margin-top: 3rem;
-    background-color: rgba(34, 40, 49, 0.7);
     border-radius: .5rem;
-    flex-direction: row;
+    flex-direction: column;
+    padding: 0;
+}
+
+.tipodepesquisa {
+    display: flex;
+    flex-direction: column;
+}
+
+.tipodepesquisa .pesquisainput {
+    margin: 2rem auto 0 auto;
+}
+
+.tipodepesquisa .radiobtn {
+    border: 1px solid;
+    margin: 0;
+    cursor: pointer;
+}
+
+.tipodepesquisa .radiobtn:hover {
+ background-color: #ffffff3d;
+ color: #f8f9fa;
+ border-color: #f8f9fa;
+}
+.radiobtn label {
+    cursor: pointer;
 }
 
 .blocopesquisa input {
-    width: 25rem;
+    width: 22.5rem;
 }
 .blocopesquisa .addNome {
     margin: auto;
 }
 .blocopesquisa #pesquisaTxt {
-    margin: 3rem auto;
+    margin: 1.5rem auto 3rem auto;
     
 }
-
 
 /*----------------------- cards ------------------------------*/
 
@@ -246,4 +251,18 @@ body {
     .card_titulo p {
         margin: 0 auto;
     }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .container-p {
+        width: 100%;
+    }   
+}
+
+@media screen and (min-width: 768px) {
+    .container-p {
+        width: 600px;
+    } 
 }
