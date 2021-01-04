@@ -4,14 +4,14 @@
 }
 
 body {
-    background: url(../img/background.jpg);
+    background: url(./img/background.jpg);
     background-repeat: no-repeat;
     background-position: top center;
 }
 
 @font-face {
     font-family: AmaticBold;
-    src:  local('AmaticBoldSC'), url(../font/AmaticSC-Bold.ttf);      
+    src:  local('AmaticBoldSC'), url(./font/AmaticSC-Bold.ttf);      
 }
 
 /* ---------------------------------------------- header -------------------------------------------------- */
@@ -118,6 +118,28 @@ body {
     border-color: 1px 
 }
 
+/*--------------------- bloco de pesquisa --------------------*/
+
+.blocopesquisa {
+    display: flex;
+    margin-top: 3rem;
+    background-color: rgba(34, 40, 49, 0.7);
+    border-radius: .5rem;
+    flex-direction: row;
+}
+
+.blocopesquisa input {
+    width: 25rem;
+}
+.blocopesquisa .addNome {
+    margin: auto;
+}
+.blocopesquisa #pesquisaTxt {
+    margin: 3rem auto;
+    
+}
+
+
 /*----------------------- cards ------------------------------*/
 
 .card-container {
@@ -178,18 +200,7 @@ body {
     margin: auto;
 }
 
-.card {
-    width: 265px;
-    margin-top: .6rem;
-}
-.card, .card-footer:last-child {
-    border-radius: 0;
-}
-
 @media screen and (max-width: 1200px) {
-    .card {
-        width: 450px;
-    }
     .cartao {
         width: 450px;
     }
@@ -203,16 +214,13 @@ body {
 }
 
 @media screen and (min-width: 1400px) {
-    .card {
-        width: 310px;
-    }
     .cartao {
         width: 415px;
     }
 }
 
 @media screen and (max-width: 991px) {
-    .cartao, .card{
+    .cartao{
         width: 330px;
     }
     #navbarDropdown {
@@ -231,7 +239,7 @@ body {
     
 }
 @media screen and (max-width: 767px) {
-    .cartao, .card {
+    .cartao {
         width: 100%;
     }
 
