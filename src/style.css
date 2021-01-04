@@ -1,17 +1,25 @@
+
+
+@font-face {
+    font-family: AmaticBold;
+    src:  local('AmaticBoldSC'), url(./font/AmaticSC-Bold.ttf);      
+}
+
+@font-face {
+    font-family: "SourceSans";
+    src: url("./font/SourceSansPro-Regular.ttf")
+}
+
 *{
     margin:0;
     padding:0;
 }
 
 body {
+    font-family: "SourceSans", "Liberation Sans", sans-serif;
     background: url(./img/background.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: top center;
-}
-
-@font-face {
-    font-family: AmaticBold;
-    src:  local('AmaticBoldSC'), url(./font/AmaticSC-Bold.ttf);      
 }
 
 /* ---------------------------------------------- header -------------------------------------------------- */
@@ -24,17 +32,6 @@ body {
 .navbar-brand {
     font-family: AmaticBold;
     font-size: 30px;
-}
-
-.bg-nav {
-    background: linear-gradient(to right, #381460, #900c3f, #c70039, #ff5733);
-}
-
-.navbar-dark .navbar-nav .nav-link {
-    color: #ff5733;
-}
-.navbar-dark .navbar-nav .nav-link:hover, .nav-link:focus, #nav-link:active {
-    color: #c70039 !important;
 }
 
 .form-inline {
@@ -72,10 +69,8 @@ body {
 }
 
 .carrousel_head {
-    color: white;
     height: 40px;
     display: flex;
-    background-color: #c70039;
 }
 
 .carrousel_head p{
@@ -86,19 +81,10 @@ body {
 }
 
 .bg-cor1 {
-    background-color: #381460;
+    background-color:#153eae;
 }
 .bg-cor2 {
-    background-color: #900c3f;
-}
-.bg-cor3 {
-    background-color: #c70039;    
-}
-.bg-cor4 {
-    background-color: #ff5733;
-}
-.border-c1{
-    border-color: 1px 
+    background-color:#1a237e;
 }
 
 /*--------------------- bloco de pesquisa --------------------*/
@@ -121,10 +107,9 @@ body {
 
 .tipodepesquisa .radiobtn {
     border: 1px solid;
-    margin: 0;
+    margin: 0 0 0 .3rem;
     cursor: pointer;
 }
-
 .tipodepesquisa .radiobtn:hover {
  background-color: #ffffff3d;
  color: #f8f9fa;
