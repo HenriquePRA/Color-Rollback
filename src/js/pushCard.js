@@ -35,47 +35,53 @@ const pushModal = (livro) => {
 
     // subtitulo
     const subtituloContainer = document.querySelector("#subtituloLivro")
-    subtituloContainer.innerHTML = livro.volumeInfo.subtitle
+    subtituloContainer.innerHTML = ""
+    if (livro.volumeInfo.subtitle) {
+        subtituloContainer.innerHTML = livro.volumeInfo.subtitle
+    } else {
+        subtituloContainer.innerHTML += "<span style='color: red'>O livro não possúi subtítulo.</span>" 
+    }
+    
 
     // generos
     const generoContainer = document.querySelector("#generosLivro")
     generoContainer.innerHTML = ""
-    livro.volumeInfo.categories.forEach(genero => {
-        generoContainer.innerHTML += genero + ", "
-    })
+    if (livro.volumeInfo.categories) {
+        livro.volumeInfo.categories.forEach(genero => {
+            generoContainer.innerHTML += genero + ", "
+        })
+    } else {
+        generoContainer.innerHTML += "<span style='color: red'>Nenhum gênero encontrado para o livro.</span>"
+    }
 
     //descrição
     const descricaoContainer = document.querySelector("#displayDescription")
     descricaoContainer.innerHTML = ""
     let d_size = 750
     let descricao = livro.volumeInfo.description
-    if (descricao.length <= d_size) {
-        d_size = descricao.length
+    if (descricao) {
+        if (descricao.length <= d_size) {
+            d_size = descricao.length
+        }
+    
+        // limpeza da descricao
+        descricao=descricao.replace(/<br>/gi, "\n");
+        descricao=descricao.replace(/<br\s\/>/gi, "\n");
+        descricao=descricao.replace(/<br\/>/gi, "\n");
+        descricao=descricao.replace(/<b>/gi, "");
+        descricao=descricao.replace(/<b\/>/gi, "");
+        descricao=descricao.replace(/<\/b>/gi, "");
+        descricao=descricao.replace(/<i>/gi, "");
+        descricao=descricao.replace(/<\/i>/gi, "");
+    
+        for (let i = 0; i < d_size; i++) {
+            descricaoContainer.innerHTML += descricao[i]
+        }
+    
+        if (descricao.length >= 750) {
+            descricaoContainer.innerHTML += "..."
+        }
     }
-
-    // limpeza da descricao
-    descricao=descricao.replace(/<br>/gi, "\n");
-    descricao=descricao.replace(/<br\s\/>/gi, "\n");
-    descricao=descricao.replace(/<br\/>/gi, "\n");
-    descricao=descricao.replace(/<b>/gi, "");
-    descricao=descricao.replace(/<b\/>/gi, "");
-    descricao=descricao.replace(/<\/b>/gi, "");
-    descricao=descricao.replace(/<i>/gi, "");
-    descricao=descricao.replace(/<\/i>/gi, "");
-
-    for (let i = 0; i < d_size; i++) {
-        descricaoContainer.innerHTML += descricao[i]
-    }
-
-    if (descricao.length >= 750) {
-        descricaoContainer.innerHTML += "..."
-    }
-
-    const modal = document.querySelector(".modalLivro")
-    modal.style.display = "flex"
-    setTimeout(() => {
-        modal.style.opacity = "1"
-    }, 250);
 
     // link do livro
     const link = document.querySelector("#linkDoLivro")
@@ -85,6 +91,12 @@ const pushModal = (livro) => {
     } else {
         link.style.display = "none"
     }
+
+    const modal = document.querySelector(".modalLivro")
+    modal.style.display = "flex"
+    setTimeout(() => {
+        modal.style.opacity = "1"
+    }, 250);
 
 }
 
