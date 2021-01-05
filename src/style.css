@@ -41,21 +41,22 @@ body {
 }
 
 .form-inline .btn {
-    margin-left: 1rem;
+    margin-left: .5rem;
 }
+
 #navBarInput {
+    color: #ffffffd3;
     border-radius: 0;
     border: 0px;
     border-left: 2px solid #ffffff;
     background-clip: initial;
     background-color: #ffffff3d;
 }
-
 #navBarInput:focus {
+    color: #212529;
     background-color: #ffffffd3;
     box-shadow: none;
 }
-
 #navBarSearchbtn {
     padding: 0 0.75rem;
     border-radius: 0;
@@ -65,26 +66,26 @@ body {
 /*------------------------------------------ Area de navegacao -------------------------------------------- */
 
 .livros, .temas {
-    background: rgba(34, 40, 49, 0.7);
+    background-color: #607d8b;
 }
-
 .carrousel_head {
     height: 40px;
     display: flex;
 }
-
 .carrousel_head p{
     margin: auto 20px;
     font-weight: 600;
     font-family: AmaticBold;
     font-size: 25px;
 }
-
 .bg-cor1 {
     background-color:#153eae;
 }
 .bg-cor2 {
     background-color:#1a237e;
+}
+.cor1 {
+    color: #ffffffdb !important;
 }
 
 /*--------------------- bloco de pesquisa --------------------*/
@@ -102,23 +103,28 @@ body {
 }
 
 .tipodepesquisa .pesquisainput {
-    margin: 2rem auto 0 auto;
+    padding: 2rem 1rem 0 1rem;
+    margin: 0 auto 0 auto;
 }
-
+.radionContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .tipodepesquisa .radiobtn {
     border: 1px solid;
-    margin: 0 0 0 .3rem;
+    margin: .3rem 0 0 .3rem;
     cursor: pointer;
+    border: 1px solid #ffffffdb;
+    width: 8.2rem;
 }
 .tipodepesquisa .radiobtn:hover {
- background-color: #ffffff3d;
- color: #f8f9fa;
- border-color: #f8f9fa;
+    background-color: #ffffff3d;
+    border-color: #f8f9fa;
 }
 .radiobtn label {
     cursor: pointer;
 }
-
 .blocopesquisa input {
     width: 22.5rem;
 }
@@ -194,21 +200,17 @@ body {
     .cartao {
         width: 450px;
     }
-
 }
-
 @media screen and (min-width: 1201px) {
     .cartao {
         width: 357px;
     }
 }
-
 @media screen and (min-width: 1400px) {
     .cartao {
         width: 415px;
     }
 }
-
 @media screen and (max-width: 991px) {
     .cartao{
         width: 330px;
@@ -225,27 +227,21 @@ body {
     .dropdown-menu {
         margin: 10px;
         text-align: center;
-    }
-    
+    }    
 }
 @media screen and (max-width: 767px) {
     .cartao {
         width: 100%;
     }
-
     .card_titulo p {
         margin: 0 auto;
     }
 }
-
-
-
 @media screen and (max-width: 768px) {
     .container-p {
         width: 100%;
     }   
 }
-
 @media screen and (min-width: 768px) {
     .container-p {
         width: 600px;

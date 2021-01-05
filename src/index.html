@@ -10,7 +10,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-cor1">
         <div class="container">
-            <a class="navbar-brand" href="#">Visar Livros</a>            
+            <a class="navbar-brand cor1" href="#">Visar Livros</a>            
         </div>        
     </nav>
     <div class="container">
@@ -18,27 +18,25 @@
             <div class="tipodepesquisa">
                 <div class="pesquisainput">
                     <div>
-                        <h4 class="text-light">Pesquisa por:</h4>
+                        <h4 class="cor1">Pesquisa por:</h4>
                     </div>
-                    <div class="form-check form-check-inline px-2 py-2 btn-outline-light radiobtn" style="margin: 0;">
-                        <input type="radio" id="tituloRadio" name="pesquisarPor">
-                        <label class="form-check-label" for="tituloRadio">Titulo do Livro</label>
-                    </div>
-                    <div class="form-check form-check-inline px-2 py-2 btn-outline-light radiobtn">
-                        <input type="radio" id="autorRadio" name="pesquisarPor">
-                        <label class="form-check-label" for="autorRadio">Autor</label>
-                    </div>
-                    <div class="form-check form-check-inline px-2 py-2 btn-outline-light radiobtn">
-                        <input type="radio" id="editoraRadio" name="pesquisarPor">
-                        <label class="form-check-label" for="editoraRadio">Editora</label>
-                    </div>
-                    <div class="form-check form-check-inline px-2 py-2 btn-outline-light radiobtn">
-                        <input type="radio" id="generoRadio" name="pesquisarPor">
-                        <label class="form-check-label" for="generoRadio">Genero</label>
-                    </div>
-                    <div class="form-check form-check-inline px-2 py-2 btn-outline-light radiobtn">
-                        <input type="radio" id="isbnRadio" name="pesquisarPor">
-                        <label class="form-check-label" for="isbnRadio">ISBN</label>
+                    <div class="radionContainer">
+                        <div class="form-check form-check-inline px-2 py-2 btn-outline-light radiobtn">
+                            <input type="radio" id="tituloRadio" name="pesquisarPor" checked>
+                            <label class="form-check-label cor1" for="tituloRadio">Titulo do Livro</label>
+                        </div>
+                        <div class="form-check form-check-inline px-4 py-2 btn-outline-light radiobtn">
+                            <input type="radio" id="autorRadio" name="pesquisarPor">
+                            <label class="form-check-label cor1" for="autorRadio">Autor</label>
+                        </div>
+                        <div class="form-check form-check-inline px-4 py-2 btn-outline-light radiobtn">
+                            <input type="radio" id="editoraRadio" name="pesquisarPor">
+                            <label class="form-check-label cor1" for="editoraRadio">Editora</label>
+                        </div>
+                        <div class="form-check form-check-inline px-4 py-2 btn-outline-light radiobtn">
+                            <input type="radio" id="generoRadio" name="pesquisarPor">
+                            <label class="form-check-label cor1" for="generoRadio">Genero</label>
+                        </div>                        
                     </div>
                 </div>
             </div>

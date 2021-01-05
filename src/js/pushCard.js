@@ -1,5 +1,7 @@
 // recebe um json com os dados de um livro e o insere no container de livros
 const pushCard = (livro) => {
+
+    console.log(livro)
     const cartao = document.createElement("div");
     cartao.className = "cartao";
     cartao.id = livro.id
@@ -7,7 +9,12 @@ const pushCard = (livro) => {
     // thumbnail
     const cardimg = document.createElement("div");
     const img = document.createElement("img");
-    img.src=livro.volumeInfo.imageLinks.thumbnail;
+    const imglinks = livro.volumeInfo.imageLinks
+    if (imglinks) {
+        img.src = imglinks.thumbnail;
+    } else {
+        img.src = "https://via.placeholder.com/150x180"
+    } 
 
     cardimg.className = "card_imagem";
     cardimg.appendChild(img);
@@ -20,13 +27,15 @@ const pushCard = (livro) => {
     const cardtitle = document.createElement("div");
     const title = document.createElement("p");
     let sub_title = "";
-    if (livro.volumeInfo.title) { 
-        for (let i = 0; i < 55; i++) {
+    if (livro.volumeInfo.title) {
+        let tamanho = livro.volumeInfo.title.length
+        if (tamanho > 55) tamanho = 55 
+        for (let i = 0; i < tamanho; i++) {
             if (livro.volumeInfo.title[i] !== undefined) {
                 sub_title += livro.volumeInfo.title[i];
             }
         }
-        if (livro.volumeInfo.title.length > 55) sub_title += "..."
+        if (tamanho === 55) sub_title += "..."
     } else {
         sub_title = "Livro sem Título"
     }
