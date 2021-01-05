@@ -15,6 +15,7 @@
 body {
     background-color: #607d8b;
     font-family: "SourceSans", "Liberation Sans", sans-serif;
+    position: relative;
 }
 
 /* -------------------------------------------- header -------------------------------------------- */
@@ -129,7 +130,7 @@ body {
 }
 
 
-/*----------------------- cards ------------------------------*/
+/*-------------------------------------------- cards --------------------------------------------*/
 
 .card-container {
     display: flex;
@@ -223,4 +224,63 @@ body {
     .container-p {
         width: 600px;
     }
+}
+
+/*-------------------------------------------- modal --------------------------------------------*/
+
+.modalLivro {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(171,186,200, .9);
+    display: none;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+.modalLivro .livroContainer {
+    margin: auto;
+    position: fixed;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, 0);
+    background-color: white;
+    border-radius: .5rem !important;
+}
+.modalHead {
+    background-color: #cfd8dc;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    border-radius: .4rem .4rem 0 0 !important;
+}
+.blocoImgDes {
+    display: flex;
+}
+
+#linkDoLivro {
+    display: none;
+}
+
+.fechar {
+    position: absolute;
+    right: -7px;
+    top: -7px;
+    width: 26px;
+    height: 26px;
+    background-color: #dd2c00;
+    border-radius: 50%;
+    opacity: 1;
+    cursor: pointer;
+    transition: all .3s;
+    display: flex;
+}
+.fechar:hover {
+    background-color: #ff3d00;    
+}
+
+.fechar_btn {
+    margin: auto;
+    width: 14px;
+    height: 14px;
 }

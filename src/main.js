@@ -40,3 +40,13 @@ document.querySelectorAll(".radiobtn").forEach(btn => {
         btn.firstElementChild.checked = true;
     })
 })
+
+// fechar modal 
+const btnfechar = document.querySelector(".fechar")
+btnfechar.addEventListener("click", () => {
+    let modalLivro = document.querySelector(".modalLivro");
+    modalLivro.style.opacity = "0"
+    setTimeout(() => {
+        modalLivro.style.display = "none"
+    }, 400);
+})

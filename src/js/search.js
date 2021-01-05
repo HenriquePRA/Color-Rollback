@@ -1,9 +1,7 @@
 
 // função que busca multiplos livros na api do google books
 const search = async (nome, limite) => {
-
     getTipoSel()
-
     if ((nome === "") || (nome === null)) {
         alert("Campo de pesquisa vazio !")
     } 
@@ -32,7 +30,9 @@ const idSearch = async (id) => {
     if (!id) {
         alert("Erro ao abrir o livro, recarregue a página ou tente novamente !")
     } else {
-        let linkDeBusca = "https://www.googleapis.com/books/v1/volumes/" + id
+        const res = await fetch("https://www.googleapis.com/books/v1/volumes/" + id, { method: 'get' })
+        const resjson = await res.json()
+        return resjson
     }
 }
 

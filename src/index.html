@@ -8,12 +8,15 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
     <body>
+        <!-- navbar superior -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-cor1">
             <div class="container">
                 <a class="navbar-brand cor2" href="#">Visar Livros</a>
             </div>
         </nav>
         <div class="container">
+
+            <!-- bloco de pesquisa -->
             <div class="container-p mt-5 mx-auto bg-cor1 rounded">
                 <div class="tipodepesquisa">
                     <div class="pesquisainput">
@@ -48,7 +51,8 @@
                 </div>     
             </div>
 
-            <div class="mt-5 mb-5 livros" style="border-radius: .5rem .5rem .25rem .25rem">
+            <!-- bloco de exibição de livros -->
+            <div class="mt-5 livros" style="border-radius: .5rem .5rem .25rem .25rem">
                 <div class="carrousel_head bg-cor1 text-light rounded-top" id="displayHeader">
                 <p class="cor2 my-1">
                         <!-- Título dinâmico -->
@@ -59,6 +63,42 @@
                 </div>
             </div>
 
+            <!-- modal que recebe os detalhes de um livro -->
+            <div class="modalLivro">
+                <div class="livroContainer container-p">
+                    <div class="rounded-top modalHead" >
+                        <div class="fechar">
+                            <img src="./img/cruz.svg" class="fechar_btn" alt="fechar modal">
+                        </div>
+                        <span id="tituloDisplay"></span>
+                    </div>
+                    <div class="blocoImgDes">
+                        <div id="imgLivroDisplay">
+                        
+                        </div>
+                        <div class="blocoDes">
+                            <div class="pt-2 pb-1 px-2">
+                                <b>Autor(es):</b> <span id="autorLivro"></span>
+                            </div>                    
+                            <div class="py-1 px-2">
+                                <b>Editora:</b> <span id="editoraLivro"></span>
+                            </div>
+                            <div class="py-1 px-2">
+                                <b>Subtítulo:</b> <span id="subtituloLivro"></span>
+                            </div>
+                            <div class="py-1 px-2">
+                                <b>Generos:</b> <span id="generosLivro"></span>
+                            </div>   
+                        </div>
+                    </div>
+                    <h5 class="pt-4 px-4"><b>Descrição</b></h5>
+                    <div class="mb-4 px-4" id="displayDescription">
+                    </div>
+                    <div class="mb-4 px-4">
+                        <a id="linkDoLivro">Link do livro</a>
+                    </div>
+                </div>
+            </div>
         </div>
         <script src="./js/pushCard.js"></script>
         <script src="./js/search.js"></script>
