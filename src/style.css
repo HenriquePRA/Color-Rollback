@@ -4,17 +4,14 @@
     font-family: AmaticBold;
     src:  local('AmaticBoldSC'), url(./font/AmaticSC-Bold.ttf);      
 }
-
 @font-face {
     font-family: "SourceSans";
     src: url("./font/SourceSansPro-Regular.ttf")
 }
-
 *{
     margin:0;
     padding:0;
 }
-
 body {
     background-color: #607d8b;
     font-family: "SourceSans", "Liberation Sans", sans-serif;
@@ -49,7 +46,6 @@ body {
     font-family: AmaticBold;
     font-size: 25px;
 }
-
 .bg-cor1 {
     background-color:#2196F3;
 }
@@ -67,21 +63,17 @@ body {
     border-radius: .5rem;
     flex-direction: column;
 }
-
 .tipodepesquisa {
     display: flex;
     flex-direction: column;
 }
-
 .tipodepesquisa .pesquisainput {
     padding: 2rem 1rem 0 1rem;
     margin: 0 auto 0 auto;
 }
-
 .pesquisainput h3 {
     font-family: AmaticBold;
 }
-
 .radionContainer {
     display: flex;
     flex-wrap: wrap;
@@ -97,7 +89,6 @@ body {
     float: left;
     margin-left: 0;
 }
-
 .radiobtn label {
     cursor: pointer;
 }
@@ -132,7 +123,6 @@ body {
         width: initial;
     }
 }
-
 #searchBtn {
     margin-left: .25rem;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -148,7 +138,6 @@ body {
     padding-bottom: .6rem;
     padding: 1rem 0 1.5rem 0;
 }
-
 .cartao {
     cursor: pointer;
     height: 200px;
@@ -184,22 +173,18 @@ body {
         width: 100%;
     }
 }
-
 .cartao:hover, .cartao:focus {
     opacity: .75;
 }
-
 .card_imagem {
     display: flex;
     background-color: #263238;
 }
-
 .card_imagem img{
     width: 130px;
     height: 180px;
     margin: auto;
 }
-
 .card_titulo {
     height: 60px;
     overflow: hidden;
@@ -209,7 +194,6 @@ body {
     padding: 5px;
     display: flex;
 }
-
 .card_titulo p {
     margin: auto;
 }
@@ -218,18 +202,15 @@ body {
         margin: 0 auto;
     }
 }
-
 .card_descricao {
     display: flex;
     padding: 5px 10px;
     height: 135px;
 }
-
 .card_descricao p {
     display: flex;
     margin: auto;
 }
-
 .container-p {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }

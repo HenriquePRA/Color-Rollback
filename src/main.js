@@ -6,9 +6,11 @@ const resetContainer = (headerName) => {
 }
 
 window.onload = () => {
-    search("programming", 12).then((ret) => {
+    fetch("./js/indicacoes.json")
+    .then(async (indicacoes) => {
         resetContainer("Escolhas da Plataforma")
-        ret.forEach(livro => {
+        indicacoes = await indicacoes.json()        
+        indicacoes.forEach(livro => {
             pushCard(livro)
         });
     })

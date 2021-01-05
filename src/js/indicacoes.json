@@ -1,0 +1,1103 @@
+[
+    {
+        "kind": "books#volume",
+        "id": "GXWkDwAAQBAJ",
+        "etag": "RJKEGWK/yCQ",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/GXWkDwAAQBAJ",
+        "volumeInfo": {
+        "title": "Código Limpo",
+        "subtitle": "Habilidades Práticas do Agile Software",
+        "authors": [
+            "Robert C. Martin"
+        ],
+        "publisher": "Alta Books",
+        "publishedDate": "2019-07-22",
+        "description": "Mesmo um código ruim pode funcionar. Mas se ele não for limpo, pode acabar com uma empresa de desenvolvimento. Perdem-se a cada ano horas incontáveis e recursos importantes devido a um código mal escrito. Mas não precisa ser assim. O renomado especialista em software, Robert C. Martin, apresenta um paradigma revolucionário com Código limpo: Habilidades Práticas do Agile Software. Martin se reuniou com seus colegas do Mentor Object para destilar suas melhores e mais ágeis práticas de limpar códigos \"dinamicamente\" em um livro que introduzirá gradualmente dentro de você os valores da habilidade de um profissional de softwares e lhe tornar um programador melhor –mas só se você praticar. Que tipo de trabalho você fará? Você lerá códigos aqui, muitos códigos. E você deverá descobrir o que está correto e errado nos códigos. E, o mais importante, você terá de reavaliar seus valores profissionais e seu comprometimento com o seu ofício. Código limpo está divido em três partes. Na primeira há diversos capítulos que descrevem os princípios, padrões e práticas para criar um código limpo. A segunda parte consiste em diversos casos de estudo de complexidade cada vez maior. Cada um é um exercício para limpar um código – transformar o código base que possui alguns problemas em um melhor e eficiente. A terceira parte é a compensação: um único capítulo com uma lista de heurísticas e \"odores\" reunidos durante a criação dos estudos de caso. O resultado será um conhecimento base que descreve a forma como pensamos quando criamos, lemos e limpamos um código. Após ler este livro os leitores saberão: ✔ Como distinguir um código bom de um ruim ✔ Como escrever códigos bons e como transformar um ruim em um bom ✔ Como criar bons nomes, boas funções, bons objetos e boas classes ✔ Como formatar o código para ter uma legibilidade máxima ✔ Como implementar completamente o tratamento de erro sem obscurecer a lógica ✔ Como aplicar testes de unidade e praticar o desenvolvimento dirigido a testes Este livro é essencial para qualquer desenvolvedor, engenheiro de software, gerente de projeto, líder de equipes ou analistas de sistemas com interesse em construir códigos melhores.",
+        "industryIdentifiers": [
+            {
+            "type": "ISBN_10",
+            "identifier": "8550811483"
+            },
+            {
+            "type": "ISBN_13",
+            "identifier": "9788550811482"
+            }
+        ],
+        "readingModes": {
+            "text": false,
+            "image": true
+        },
+        "pageCount": 456,
+        "printedPageCount": 457,
+        "printType": "BOOK",
+        "categories": [
+            "Computers / General"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.1.2.0.preview.1",
+        "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+        },
+        "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=GXWkDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70OZ2aPxfXVZvblNGVoaB34ObFOcxhhpYGdKtyaQ6HqLjVhn7zNT1YraGz8OuB9eQ91lkxCFExEDzaUn1IFLiz-LSO-3aMKpvPoktsHtQ6l87DOzjgMkHgEaXDigjnaVsPIvdi2&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=GXWkDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE707WiSMSQ19eZNUBBOUDBga1haOelyOSd4cYswtVNzY-Uq-VaTiR63bH2-9tlHjtej_7g4HQD_uPcqdmIDhLJcRfNqc03QAHAg-f9GZ9CgykGZaWi2xsEki4BQMfiRFXyopReX4&source=gbs_api",
+            "small": "http://books.google.com/books/content?id=GXWkDwAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71n3stvo_FmemSpr7LhN936OtmbHe1QO5R8yd6b4_3sOGvcp0y2vgHeDJ1HCd3UyCe3KTwvc7rp_QURKHzglo-LAvpMd0YE3V1P0Lj8V1_bKaNmd0doL7PWCNi09cc1KWH9YGu9&source=gbs_api",
+            "medium": "http://books.google.com/books/content?id=GXWkDwAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72oVjcw4vfRAdHxbue9f7kFfB3gOQeMxgrfHtpxi0ygqgNUO_xAKqJ10tr8aV2EgT_GfeOJSFlceVD9hZC9Z6vMYw8ZdrICdejslS4mD3RH8lfNso4-7H_LvuK8BIaqcHtnFvmP&source=gbs_api",
+            "large": "http://books.google.com/books/content?id=GXWkDwAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE71FscVInYzKJf1SenJOO_2NsYtJ9ppIGx-Q2z6hVZUc__DC1PFrcyXbuQy58PfNEcleAfOcTlXhnP1znVVKEKqpc-YJ33cgTcWKkcLwHwGL1Vo9LNETUIS5g6xihYkZdCXFfwoV&source=gbs_api",
+            "extraLarge": "http://books.google.com/books/content?id=GXWkDwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE709d8SnDgIZVMZAcN9RCbJeHkEs_0xN6_LLTwfe3BbqZnarh8hiLJ5HtPrpt3dz3TYcW4LRp1xqEAr6ycXyiB9rwAlzBDmPMtp9tV7ajrhpxnmWlgFkYuqnED9JBML_u4Oolice&source=gbs_api"
+        },
+        "language": "pt-BR",
+        "previewLink": "http://books.google.com.br/books?id=GXWkDwAAQBAJ&hl=&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=GXWkDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=GXWkDwAAQBAJ"
+        },
+        "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+            "amount": 87.2,
+            "currencyCode": "BRL"
+        },
+        "retailPrice": {
+            "amount": 87.2,
+            "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=GXWkDwAAQBAJ&rdid=book-GXWkDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+            {
+            "finskyOfferType": 1,
+            "listPrice": {
+                "amountInMicros": 87200000,
+                "currencyCode": "BRL"
+            },
+            "retailPrice": {
+                "amountInMicros": 87200000,
+                "currencyCode": "BRL"
+            },
+            "giftable": true
+            }
+        ]
+        },
+        "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+            "isAvailable": false
+        },
+        "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.br/books/download/C%C3%B3digo_Limpo-sample-pdf.acsm?id=GXWkDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=GXWkDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+        }
+    },{
+        "kind": "books#volume",
+        "id": "XqbfCgAAQBAJ",
+        "etag": "MkxgGB4qfR4",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/XqbfCgAAQBAJ",
+        "volumeInfo": {
+          "title": "Python fluente",
+          "subtitle": "Programação clara, concisa e eficaz",
+          "authors": [
+            "Luciano Ramalho"
+          ],
+          "publisher": "Novatec Editora",
+          "publishedDate": "2015-11-05",
+          "description": "A simplicidade de Python permite que você se torne produtivo rapidamente, porém isso muitas vezes significa que você não estará usando tudo que ela tem a oferecer. Com este guia prático, você aprenderá a escrever um código Python eficiente e idiomático aproveitando seus melhores recursos – alguns deles, pouco conhecidos. O autor Luciano Ramalho apresenta os recursos essenciais da linguagem e bibliotecas de Python mostrando como você pode tornar o seu código mais conciso, mais rápido e mais legível ao mesmo tempo. \u003cbr\u003e\u003cbr\u003eMuitos programadores experientes tentam dobrar o Python para que ele se enquadre em padrões aprendidos com outras linguagens e jamais descobrem os recursos do Python que estão além de sua experiência. Com este livro, esses programadores Python aprenderão a ser totalmente proficientes em Python 3. \u003cbr\u003e\u003cbr\u003eEste livro inclui: \u003cbr\u003e\u003cbr\u003e•        O modelo de dados do Python: entenda como os métodos especiais são o segredo para o comportamento consistente dos objetos. \u003cbr\u003e\u003cbr\u003e•        Estruturas de dados: tire total proveito dos tipos embutidos e entenda a dualidade entre texto e bytes na era do Unicode. \u003cbr\u003e\u003cbr\u003e•        Funções como objetos: veja as funções Python como objetos de primeira classe e entenda como isso afeta alguns padrões de projeto populares. \u003cbr\u003e\u003cbr\u003e•        Técnicas de orientação a objetos: crie classes após dominar referências, mutabilidade, interfaces, sobrecarga de operadores e herança múltipla. \u003cbr\u003e\u003cbr\u003e•        Controle de fluxo: tire proveito de gerenciadores de contexto, geradores, corrotinas e concorrência com os pacotes concurrent.futures e asyncio. \u003cbr\u003e\u003cbr\u003e•        Metaprogramação: entenda como funcionam propriedades, descritores de atributos, decoradores de classe e metaclasses.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_10",
+              "identifier": "857522462X"
+            },
+            {
+              "type": "ISBN_13",
+              "identifier": "9788575224625"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 800,
+          "printedPageCount": 55,
+          "printType": "BOOK",
+          "categories": [
+            "Computers / Programming Languages / Python",
+            "Computers / Programming / General"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "preview-1.0.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=XqbfCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70VfD1Yo-fAowRT-C3KCAxOdgBH3OD_0ZScSoY7xT5ie0oRfBKPl0DCsSjsTn-64cu6ziircULF_DypWI2DqKQs6r2Ne2IV1HVovcZLORLme3sXjmvElDY38wYN4nNZ505L7LQZ&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=XqbfCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72y9lJ_ohqC-G4nHVR15v0U1OrABg0QWg6_LrO1Zy2-2tU--asv2M7LSdWUGrF_ktgBVbyg3u3EByHyu77Bg9mBre4056OsnS2-U09hMM6vPlACFnLv4sO65a_4lZSxdC6ZfCwb&source=gbs_api",
+            "small": "http://books.google.com/books/content?id=XqbfCgAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70LxJDeYa_8dP1vNDbLGAvQs7rqS0ypX9QZxaR-dImk9mFn1o8xSn9Ir8zhusaPpPC2w35p8YX9X5r_01TIYYV7fIykKyLxVBpWjPIhJ93VBtO3b3d1puWG2QFBprCVjQKQrdVN&source=gbs_api",
+            "medium": "http://books.google.com/books/content?id=XqbfCgAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73wO5RHKS12u1fMbPjYBHK1OKQpYmzJzDz9bMW0ugIztv2urOZwh8kYLQfayl3WFI0NGKRhRJaoBcPxCj9pFB7OVfZGLhqptxBMIypo5hjRWsb3jz5hLwOdLFMnRLBU3fUiHSdq&source=gbs_api",
+            "large": "http://books.google.com/books/content?id=XqbfCgAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE71kW2NpbTsHb7_aFlxpnM9s7gTSSPo6lehEahByAOe1eelW8NpCmyEcHk5I7fJk6Yh_yYw-TaJ7DHgZmIkNiVfz2lh1CqdQAzHCh_VYngIbiTJ3Hl-1SqMI3HCYRpKE_8U9OFW2&source=gbs_api",
+            "extraLarge": "http://books.google.com/books/content?id=XqbfCgAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE714bsyctwtXltBQ30Dfh9xQi7jPdAVz1-o0U0vViv41SN72KTZcDoDlwHHLYCc0iT4TFr_qrduVTwovffbx6bLYmc8KmPAxY7wyklmcmAqb9diAjiPYe8n7WrAvk3yiiBzlNQRR&source=gbs_api"
+          },
+          "language": "pt",
+          "previewLink": "http://books.google.com.br/books?id=XqbfCgAAQBAJ&hl=&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=XqbfCgAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=XqbfCgAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "BR",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "BR",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=XqbfCgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        }
+    },{
+        "kind": "books#volume",
+        "id": "FSVTDwAAQBAJ",
+        "etag": "PXMaOC/oOoo",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/FSVTDwAAQBAJ",
+        "volumeInfo": {
+            "title": "Eloquent JavaScript, 3rd Edition",
+            "subtitle": "A Modern Introduction to Programming",
+            "authors": [
+            "Marijn Haverbeke"
+            ],
+            "publisher": "No Starch Press",
+            "publishedDate": "2018-12-04",
+            "description": "\u003cb\u003eCompletely revised and updated, this best-selling introduction to programming in JavaScript focuses on writing real applications.\u003c/b\u003e\u003cbr\u003e\u003cbr\u003eJavaScript lies at the heart of almost every modern web application, from social apps like Twitter to browser-based game frameworks like Phaser and Babylon. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.\u003cbr\u003e\u003cbr\u003eThis much anticipated and thoroughly revised third edition of \u003ci\u003eEloquent JavaScript\u003c/i\u003e dives deep into the JavaScript language to show you how to write beautiful, effective code. It has been updated to reflect the current state of Java¬Script and web browsers and includes brand-new material on features like class notation, arrow functions, iterators, async functions, template strings, and block scope. A host of new exercises have also been added to test your skills and keep you on track. \u003cbr\u003e\u003cbr\u003eAs with previous editions, Haverbeke continues to teach through extensive examples and immerses you in code from the start, while exercises and full-chapter projects give you hands-on experience with writing your own programs. You start by learning the basic structure of the JavaScript language as well as control structures, functions, and data structures to help you write basic programs. Then you'll learn about error handling and bug fixing, modularity, and asynchronous programming before moving on to web browsers and how JavaScript is used to program them. As you build projects such as an artificial life simulation, a simple programming language, and a paint program, you'll learn how to:\u003cbr\u003e\u003cbr\u003e- Understand the essential elements of programming, including syntax, control, and data\u003cbr\u003e- Organize and clarify your code with object-oriented and functional programming techniques\u003cbr\u003e- Script the browser and make basic web applications\u003cbr\u003e- Use the DOM effectively to interact with browsers\u003cbr\u003e- Harness Node.js to build servers and utilities\u003cbr\u003e\u003cbr\u003eIsn't it time you became fluent in the language of the Web?\u003cbr\u003e\u003cbr\u003e* All source code is available online in an inter¬active sandbox, where you can edit the code, run it, and see its output instantly.",
+            "industryIdentifiers": [
+            {
+                "type": "ISBN_10",
+                "identifier": "1593279515"
+            },
+            {
+                "type": "ISBN_13",
+                "identifier": "9781593279516"
+            }
+            ],
+            "readingModes": {
+            "text": true,
+            "image": false
+            },
+            "pageCount": 472,
+            "printedPageCount": 549,
+            "printType": "BOOK",
+            "categories": [
+            "Computers / Programming Languages / JavaScript",
+            "Computers / Web / Web Programming",
+            "Computers / Web / Web Services & APIs"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.2.2.0.preview.2",
+            "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+            },
+            "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=FSVTDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71mXkEEq1v342lrwxSYXrQSxwLvD0wXAJdT6Yoe84bGFZ26aiyexpiDB_DQ_3IM4aIA-foD3GZeAdzpPmicUf6vEAlw7m0zQx-e-YsFsZ8xRCIfFgrDvojeOHvREZytn7Lqjg_l&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=FSVTDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73lW_B79Jsb4Kxy-LNJ8R4jiy7JJCas3lgznGM3HJJx9zJlci-F8EcR2u3iEXLkzCijAQ9xCiFuv2bdG48JR0dBKEtk6CtL6ZbWdZFuvSx0l1pLo7wpzzX6rgz7YSiQ0ShSD76R&source=gbs_api",
+            "small": "http://books.google.com/books/content?id=FSVTDwAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73hSdBz1NyAnLzx3WW-EhLjyTpepLQsTaPI6G4jEatFbJxYMTpc_ekQ3b6yRsI-ZguEBBea9OxV5DaWhE2KdLnefqpgvAc_JT3vlRhRKeyuD6leUyjfyRRTGQWqG74XU-aExQ5Q&source=gbs_api",
+            "medium": "http://books.google.com/books/content?id=FSVTDwAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73vmAzoHyiYguGNvxpf9-D8azenmgKVcDXla-Sip15-_zqx6HMopunNO-jDG431w7MpxP5DaQDviZPF3UonL_liVk_dTd0OSX2hyOmmO9BWjHSI6bQvl7j8DsPh7QJw5E6WvLMg&source=gbs_api",
+            "large": "http://books.google.com/books/content?id=FSVTDwAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE721fJHNA1cGB7uzbmQYNn6VptgY5BYEIO9ZZBRde91nKP7ynNTjB7zt3atsJ0xKS0B7tuzM_enKy1D_OnJnf29EX9Cr5LrAu3MXLgGBjyI1eUcGGgLjl8C2V1vimyE2OFxEAJ1r&source=gbs_api",
+            "extraLarge": "http://books.google.com/books/content?id=FSVTDwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71HGQk9bbjGi2QxDXZDStlgcA6e0b70GzU7XO3LpjsCrmArAL9Kuta2_zeT87j-wdlusAIpwVQiASxdhzCp4vA0rJFr5U3iuvXZ2VWS-jcHsG9sibWi-0b9ovsZNX05nTYLuFEY&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.br/books?id=FSVTDwAAQBAJ&hl=&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=FSVTDwAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=FSVTDwAAQBAJ"
+        },
+        "layerInfo": {
+            "layers": [
+            {
+                "layerId": "geo",
+                "volumeAnnotationsVersion": "4"
+            }
+            ]
+        },
+        "saleInfo": {
+            "country": "BR",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+            "amount": 165.93,
+            "currencyCode": "BRL"
+            },
+            "retailPrice": {
+            "amount": 165.93,
+            "currencyCode": "BRL"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=FSVTDwAAQBAJ&rdid=book-FSVTDwAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+            {
+                "finskyOfferType": 1,
+                "listPrice": {
+                "amountInMicros": 165930000,
+                "currencyCode": "BRL"
+                },
+                "retailPrice": {
+                "amountInMicros": 165930000,
+                "currencyCode": "BRL"
+                },
+                "giftable": true
+            }
+            ]
+        },
+        "accessInfo": {
+            "country": "BR",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+            "isAvailable": true
+            },
+            "pdf": {
+            "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=FSVTDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        }
+    },{
+        "kind": "books#volume",
+        "id": "0tjB8FbV590C",
+        "etag": "Nmnv9lVpi0k",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/0tjB8FbV590C",
+        "volumeInfo": {
+            "title": "Redes de computadores",
+            "authors": [
+            "Andrew S. Tanenbaum"
+            ],
+            "publisher": "Elsevier Brasil",
+            "publishedDate": "2003",
+            "description": "'Redes de computadores' foi atualizado para refletir as tecnologias mais novas e mais importantes de redes, com ênfase especial em redes sem fio, incluindo 802.11, Bluetooth, comunicação sem fio de banda larga, redes ad hoc, i-mode e WAP. Porém, as redes fixas não foram ignoradas com cobertura de ADSL, Internet via cabo, Ethernet de gigabit, redes não-hierárquicas, NAT e MPLS.",
+            "industryIdentifiers": [
+            {
+                "type": "ISBN_10",
+                "identifier": "8535211853"
+            },
+            {
+                "type": "ISBN_13",
+                "identifier": "9788535211856"
+            }
+            ],
+            "readingModes": {
+            "text": false,
+            "image": false
+            },
+            "pageCount": 945,
+            "printedPageCount": 970,
+            "printType": "BOOK",
+            "averageRating": 4.5,
+            "ratingsCount": 4,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "2.1.2.0.preview.0",
+            "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+            },
+            "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=0tjB8FbV590C&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE73fQD1xH23jfBxBtJkN1wovMqOupV7i2pKMqD6jWYHR4as--3JXEiBx-zOAZZ58MdqBcnKLsJobxg5zsvkfXXT8f22QEc7Z9u-Nxz8N4_mjEIf08REozIaiOAwjEfkfs4VMJixO&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=0tjB8FbV590C&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72FwMo9t_VAFylNJfVs1XQvTD-jH0JCNKAO2dx-cI5wkC2uEkE7aOWqWLsNrPSzxUPEojscbDc4ofTGEIWU_2ok7SskHod9rbjSyMRqhMDuz6u2QXsII6Gd1MLTrppljXCEdRGV&source=gbs_api",
+            "small": "http://books.google.com/books/content?id=0tjB8FbV590C&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71F6EYqDeWTg1PHwZgV_WpuwaA2cVlNdZvWlxYNyOnpzjPBkOZWDjjDgcbSNw-bx4MLTd9NpwJ_B6mj_gImG3TntFLZfuQXAGfXqMhmWJGXVJ6b_q7sQJe9RT9OzwL7V4REwB0f&source=gbs_api",
+            "medium": "http://books.google.com/books/content?id=0tjB8FbV590C&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE71uuwwwxGusjPeL1n2vacWEKcdkvbLpRNxcQrBj1DOxfh8P2y6SH3lhJKTROAGg47oTRRhu0kncRxL1Ljru5p1pNDR-Uu4ZWX1loIOC66IN7kgK7OT14aQW3iacxjtM3tElEfJh&source=gbs_api",
+            "large": "http://books.google.com/books/content?id=0tjB8FbV590C&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE71y2AIlBirgG_GWGNPRVjEVjxeDhlMIGSVboNE6OosRM_yVrduYq1NGCAuysXzLUP3UU6_mtwQ2_KSBhhRRgOYOk3cH0p9vwS8Cwh2CgN9-f4qWHV9O_481GV-1eTItMRMMZhxL&source=gbs_api",
+            "extraLarge": "http://books.google.com/books/content?id=0tjB8FbV590C&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70LpY_MDOMzeZd1sl6qSkybnLxEXR0Y2GL1nCg-uZpGmw0C5Oes-FnVj53PunBM8lMCjlNu2e6fkT-xyPd53cemw0JOrwDeikOGMloruYC9crEPpQlO9VWIoqfvePdImbnVVreH&source=gbs_api"
+            },
+            "language": "pt-BR",
+            "previewLink": "http://books.google.com.br/books?id=0tjB8FbV590C&hl=&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=0tjB8FbV590C&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=0tjB8FbV590C"
+        },
+        "saleInfo": {
+            "country": "BR",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "BR",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+            "isAvailable": false
+            },
+            "pdf": {
+            "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=0tjB8FbV590C&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        }
+    },{
+        "kind": "books#volume",
+        "id": "Z5sCbDRUBaQC",
+        "etag": "8tp4Nq3VRKM",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/Z5sCbDRUBaQC",
+        "volumeInfo": {
+          "title": "Sistemas Operacionais: Projetjos e Implementação",
+          "authors": [
+            "Andrew S. Tanenbaum",
+            "Albert S. Woodhull"
+          ],
+          "publisher": "Bookman Editora",
+          "publishedDate": "2009-01-01",
+          "description": "Ao associar as ciências básicas a exemplos de aplicações clínicas, esta 2ª edição de Fisiologia gastrintestinal auxiliará na compreensão da fisiologia e de suas relações com a anatomia, a fisiopatologia e a terapêutica. Para tanto, combina a pesquisa mais atual com uma abordagem de aprendizado integrada, por sistemas de órgãos.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_10",
+              "identifier": "857780285X"
+            },
+            {
+              "type": "ISBN_13",
+              "identifier": "9788577802852"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 993,
+          "printedPageCount": 985,
+          "printType": "BOOK",
+          "categories": [
+            "Computers / Operating Systems / General"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.48.0.0.preview.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=Z5sCbDRUBaQC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE73NGxGq8U9nGd1iT7hlmQCtpabG-PPB9tYV-BlpDnV4b_dZNFSMHQJM5qa9RKTMdV9qRHv7KdGi_KeOLAUVF28YOchgajhSfODZYB75oCoKVvSJw8ws8Gbs0FVcre_a9ttDuvrj&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=Z5sCbDRUBaQC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70z6qrIE9TTYi8tS4TI4lzLWduL_Ak1B1QxMQqN9nQ9zWA7eVHHyQoXPV8Xo_-Lc14eAJ_NTt7umeWJE6fbgfZtrpyEcIPBY0t8Pq0wK8Xnt399nOueEM7_GtJE_aZVD9JKzoUg&source=gbs_api",
+            "small": "http://books.google.com/books/content?id=Z5sCbDRUBaQC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73g5IRTRq-u12k--d2MN3c-gIZArjsjgV5v5-jvJfEpZZtVGJ6PCrwDAx1Ux8ugINLVXvzXPfdirUp99dTs5lmYyH08qjhpiTpt0acDTQ47GwfIYEE1Z2HBRg_k14P1vH2lLIPv&source=gbs_api",
+            "medium": "http://books.google.com/books/content?id=Z5sCbDRUBaQC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73CNoo-S1zE0qonvdEfnq0FpkAcQKnWcd15Dad3zX9ElQ2YT_0Jf2MWPHUrevuLeWKfQxGeiPmen9RX3sOsSrilpu2sffqXZ9K-jeBiBbaHRlZpmbSpaDtGnXXObussjlDtOQaa&source=gbs_api",
+            "large": "http://books.google.com/books/content?id=Z5sCbDRUBaQC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70-R1BRvEq94pvKU6_0KYSxI3proG42YQnbhxx6QOkscl51LyNj5z-FWgbtxQzmpK2IHje-_pyu9fD2euS8YmIGzByosafh6A-b3Ygc6g0b1buncQK-0_gXrr6TxME70YMM4-ka&source=gbs_api",
+            "extraLarge": "http://books.google.com/books/content?id=Z5sCbDRUBaQC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70ORssza9ygQrRK18mLQpVxsxUcErcmcinbLK5JWEuFc86TsK50HxlObctVMgT89IJkUGl-RFr5JhyTZRDVJRtZ1xwUZokrWHyvzAPClzXRjKI0c1TJWNpEBsDiY71JxIk0N7dX&source=gbs_api"
+          },
+          "language": "pt",
+          "previewLink": "http://books.google.com.br/books?id=Z5sCbDRUBaQC&hl=&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=Z5sCbDRUBaQC&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Z5sCbDRUBaQC"
+        },
+        "saleInfo": {
+          "country": "BR",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 312.8,
+            "currencyCode": "BRL"
+          },
+          "retailPrice": {
+            "amount": 312.8,
+            "currencyCode": "BRL"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=Z5sCbDRUBaQC&rdid=book-Z5sCbDRUBaQC&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 312800000,
+                "currencyCode": "BRL"
+              },
+              "retailPrice": {
+                "amountInMicros": 312800000,
+                "currencyCode": "BRL"
+              },
+              "giftable": true
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "BR",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.br/books/download/Sistemas_Operacionais_Projetjos_e_Implem-sample-pdf.acsm?id=Z5sCbDRUBaQC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=Z5sCbDRUBaQC&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        }
+    },{
+        "kind": "books#volume",
+        "id": "8BVjCAAAQBAJ",
+        "etag": "0kuRQEsagbY",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/8BVjCAAAQBAJ",
+        "volumeInfo": {
+          "title": "PHP Moderno",
+          "subtitle": "Novos recursos e boas práticas",
+          "authors": [
+            "Josh Lockhart"
+          ],
+          "publisher": "Novatec Editora",
+          "publishedDate": "2015-04-20",
+          "description": "O PHP está passando por um renascimento, embora possa ser difícil perceber, com tantos tutoriais PHP online desatualizados. Com este guia prático, você verá como o PHP se tornou uma linguagem cheia de recursos e madura, orientada a objetos, com namespaces e uma coleção crescente de bibliotecas de componentes reutilizáveis.\u003cbr\u003e\u003cbr\u003eO autor Josh Lockhart – criador do PHP The Right Way, uma iniciativa popular para incentivar as melhores práticas associadas ao PHP – mostra os recursos dessa nova linguagem em ação. Você conhecerá as melhores práticas para a arquitetura e o planejamento de aplicações, bancos de dados, segurança, testes, debugging e implantação. Se tiver uma compreensão básica de PHP e quiser aperfeiçoar suas habilidades, este livro foi escrito para você.\u003cbr\u003e\u003cbr\u003e·      Conheça os recursos do PHP moderno como namespaces, traits, generators e closures.\u003cbr\u003e\u003cbr\u003e·      Descubra como encontrar, usar e criar componentes PHP.\u003cbr\u003e\u003cbr\u003e·      Siga as melhores práticas para garantir a segurança das aplicações, trabalhar com bancos de dados, tratar erros e exceções e muito mais.\u003cbr\u003e\u003cbr\u003e·      Conheça ferramentas e técnicas para implantação, ajustes, testes e geração de perfil de suas aplicações PHP.\u003cbr\u003e\u003cbr\u003e·      Explore as implementações de HVVM e da linguagem Hack do Facebook – e como elas afetam o PHP moderno.\u003cbr\u003e\u003cbr\u003e \u003cbr\u003e\u003cbr\u003e·      Crie um ambiente local de desenvolvimento que seja muito parecido com seu servidor de produção.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_10",
+              "identifier": "857522428X"
+            },
+            {
+              "type": "ISBN_13",
+              "identifier": "9788575224281"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 296,
+          "printedPageCount": 33,
+          "printType": "BOOK",
+          "categories": [
+            "Computers / Programming Languages / PHP",
+            "Computers / Programming / General"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "preview-1.0.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=8BVjCAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE720CvomtzhDC4IlAm76LROLzJgFUbKPwpTQO7N9iPFpBTjFzH1ect8ouSO4IT7hYLz9wAORXpqKoTwF0Rb8GjSE3S6GiEarPZwQ_rc1hQYrSVz5exNfVNQEdbkAThqbk8l8Vfcs&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=8BVjCAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72QlvDMTXS_MVir6nKQbb6dNw3r1u8tGyoloUHbwhA2PZtGe1zkFYiqgFgwBWXAgX-bhBRdUb38u7joXl09T-19Pw87EUXilJgiucIa_WbR54FpM5nmtS4hkaL_qwyfmZ5T-96M&source=gbs_api",
+            "small": "http://books.google.com/books/content?id=8BVjCAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE715-en0FG-z_wf7yS68pxY4d6FApUO-YJlkzCq2A4RwosnTKpEbYSDQx-vlemX6q5VaV6nlkct7PbYvwtfk51zAUuKrzfiwXYZAL13GNDFxzJ-fvtG9mYuEoeP7K70JnUT6U99A&source=gbs_api",
+            "medium": "http://books.google.com/books/content?id=8BVjCAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE704jJCQ41wRQRDEwbX_0BOE4Mgi569mLySPjBqGrHiveAd0dv7KPQrHne6KLrKkXZwlld1GRjCbgGwkpOPEkoEBIbXg_hQBC6IMj9sx959ateFJc82TyQGv-POORhAYdnkpq9Yd&source=gbs_api",
+            "large": "http://books.google.com/books/content?id=8BVjCAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE71SNuHBQbtnRngP_nCDHUXuLHUqctQysba41LDTpYLJcLlN4xKD_z2JprUTkz8r6887pqech244CmYV2ccrnPfGYfiGkllmjmibB5DX0uS0mumOpzpvwajGsFW3AIQfDH2uca7X&source=gbs_api",
+            "extraLarge": "http://books.google.com/books/content?id=8BVjCAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70gJ1tHSv9fxRav0eC4PbRkEfejHIuo19SZTxRzcmpR8famJt8F8ZIDPgP7FQYhxHDumGpsHK6dBpIHq_NTHfUiSJ2R9MW9c1SLRBYgYLbQrCETfCbqlsShT0v2TeaW1ECN8il7&source=gbs_api"
+          },
+          "language": "pt",
+          "previewLink": "http://books.google.com.br/books?id=8BVjCAAAQBAJ&hl=&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=8BVjCAAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=8BVjCAAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "BR",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "BR",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=8BVjCAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        }
+    },{
+        "kind": "books#volume",
+        "id": "6iA4LgEACAAJ",
+        "etag": "0nvWZ8cUzm8",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/6iA4LgEACAAJ",
+        "volumeInfo": {
+          "title": "Algoritmos",
+          "subtitle": "teoria e prática",
+          "authors": [
+            "Thomas H. Cormen",
+            "Charles E Leiserson",
+            "Ronald L. Rivest E Clifford Stein"
+          ],
+          "publisher": "Elsevier Editora",
+          "publishedDate": "2012",
+          "description": "Este livro apresenta um texto abrangente sobre o moderno estudo de algoritmos para computadores. É uma obra clássica, cuja primeira edição tornou-se amplamente adotada nas melhores universidades em todo o mundo, bem como padrão de referência para profissionais da área. Nesta terceira edição, totalmente revista e ampliada, as mudanças são extensivas e incluem novos capítulos, exercícios e problemas; revisão de pseudocódigos e um estilo de redação mais claro.A edição brasileira conta ainda com nova tradução e revisão técnica do Prof. Arnaldo Mandel, do Departamento de Ciência da Computação do Instituto de Matemática e Estatística da Universidade de São Paulo. Elaborado para ser ao mesmo tempo versátil e completo, o livro atende alunos dos cursos de graduação e pós-graduação em algoritmos ou estruturas de dados.?",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_10",
+              "identifier": "8535236996"
+            },
+            {
+              "type": "ISBN_13",
+              "identifier": "9788535236996"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": false
+          },
+          "pageCount": 926,
+          "printedPageCount": 926,
+          "printType": "BOOK",
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "preview-1.0.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=6iA4LgEACAAJ&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE70i26s12zy5v6nxDS1Vm6kUDYzM72gROQ6C3yXvrZgpRwEbHpUHucVlTHHwxIo5DpCM3YfWBkIW5kobeqfmnZ5o5GUtHNDLeak-qfeHlpgyQoMZE9W2FxmlBB8pAx026ZefWwpC&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=6iA4LgEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70Av7FzLsvZsIrjVxlcXoKZ73Dl5ZE3i0voqWdcoFurKx_cvy5ZloGRjLoHM2S4tSNPuQ67MxsO8ZaCdUu5mJQxAWxzvcSTQq85546hAbnXbsslkKB6JtNI68rb4fhGmSGblyEc&source=gbs_api"
+          },
+          "language": "pt",
+          "previewLink": "http://books.google.com.br/books?id=6iA4LgEACAAJ&hl=&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=6iA4LgEACAAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=6iA4LgEACAAJ"
+        },
+        "saleInfo": {
+          "country": "BR",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "BR",
+          "viewability": "NO_PAGES",
+          "embeddable": false,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=6iA4LgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "NONE",
+          "quoteSharingAllowed": false
+        }
+    },{
+        "kind": "books#volume",
+        "id": "BOaPDwAAQBAJ",
+        "etag": "ld9sLk9/Bzo",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/BOaPDwAAQBAJ",
+        "volumeInfo": {
+          "title": "Arquitetura Limpa",
+          "subtitle": "O guia do artesão para estrutura e design de software",
+          "authors": [
+            "Robert C. Martin"
+          ],
+          "publisher": "Alta Books Editora",
+          "publishedDate": "2019-03-25",
+          "description": "As regras universais de arquitetura de software aumentam dramaticamente a produtividade dos desenvolvedores ao longo da vida dos sistemas de software. Agora, aproveitando o sucesso dos seus best-sellers Código Limpo e O Codificador Limpo, o lendário artesão de software Robert C. Martin (\"Uncle Bob\") vai revelar essas regras e ajudar o leitor a aplicá-las. A Arquitetura Limpa de Martin não é só mais um catálogo de opções. Com base em meio século de experiência nos mais variados ambientes de software, Martin indica as escolhas que você deve fazer e explica por que elas são cruciais para o seu sucesso. Como já era esperado do Uncle Bob, este livro está cheio de soluções simples e diretas para os desafios reais que você enfrentará — aqueles que irão influenciar diretamente o sucesso ou fracasso dos seus projetos. - Aprenda sobre as metas dos arquitetos de software — e as principais disciplinas e práticas que podem concretizá-las; - Domine os princípios essenciais do design de software para abordar função, separação de componentes e gestão de dados; - Veja como os paradigmas de programação impõem disciplina ao restringirem as ações dos desenvolvedores; - Saiba identificar o que é crucialmente importante e o que é apenas um \"detalhe\"; - Implemente estruturas ótimas e de alto nível para web, banco de dados, thick-client, console e aplicativos incorporados; - Defina limites e camadas adequadas e organize os componentes e serviços; - Saiba por que designs e arquiteturas dão errado e como prevenir (ou corrigir) essas falhas; Arquitetura Limpa é uma leitura essencial para profissionais que já atuam ou querem ingressar no mercado, como arquitetos de software, analistas de sistemas, designers de sistemas, gerentes de software e programadores que precisam executar designs de outras pessoas.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_10",
+              "identifier": "8550808164"
+            },
+            {
+              "type": "ISBN_13",
+              "identifier": "9788550808161"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 432,
+          "printedPageCount": 433,
+          "printType": "BOOK",
+          "categories": [
+            "Computers / Software Development & Engineering / General"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "preview-1.0.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=BOaPDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70U0ISEszNsLp9NAjYOJtSipp_QqZFeiHBPpA6A_iiPjw7QeJ5rxWlhoyE1lqrUyZXCYqQ8TiteSDwgtZD_EXauZ3b4re0Uu3rPLAsRhBDIkHfh4Q9Ky22WTE7RyqvM2jmloP_s&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=BOaPDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72DvxOUQgz-jbMJRxn20_qU2b-QARQbr-wOqbCFaiEKr_Xw0NOPHK1I_4emkLjffoHmtR3NSfXKwxNJvem0EUBXRHTylLAG--5xXvBVDsqOkwo6cYXyy_0W_562ga_G19gpypbu&source=gbs_api",
+            "small": "http://books.google.com/books/content?id=BOaPDwAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE7298qxuiNefuw4ruYmVjY9_USgQp3kKX8ZJy-PgoQa3Esu1012XTHabwVEkEj2AxjzKtxbQ72oCRMvVLVOO8gFCnYhH6nQHDNewKZQHExWUinu_R_L-5p0EoCXC-vyGE3E5jYlB&source=gbs_api",
+            "medium": "http://books.google.com/books/content?id=BOaPDwAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73xr6n9AdxwsBY8IY3q7Jh164Gn8gtVz6xxQ6Heol8A19C-W8qXpljUjSjqVmMKgB_8qt1_7SAj1FZ5izOA2PqztrL28dpJeYEYgy5E5jok1lFPkeE-FksR0NeP6zaplzKX-qKV&source=gbs_api",
+            "large": "http://books.google.com/books/content?id=BOaPDwAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72fsSkiSt4TgrC6DeAI91GCn-oLZIddPNb7P_vBSLKcAuDq8gVhQv4YW8lUPQqB91Tbi6XXAfjtdYpua4r_teYAeAX_0mUaRSUYT7iZtXCzdFFLuz8nlVOXGQr9VzMr1BFSvTeO&source=gbs_api",
+            "extraLarge": "http://books.google.com/books/content?id=BOaPDwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71r5PySaVlflOVUw3mCHCnmc1dXR_sqZddZbxjO9GxVUZ9qfjhBXYUp2FtMHULW2DUlWQdWpePhWisx9HgXLClsA8ObypzCADlmKzuQAPsHzR8Ew_TZvdW-bdR0cP5EZvevLJJN&source=gbs_api"
+          },
+          "language": "pt-PT",
+          "previewLink": "http://books.google.com.br/books?id=BOaPDwAAQBAJ&hl=&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=BOaPDwAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=BOaPDwAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "BR",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "BR",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.br/books/download/Arquitetura_Limpa-sample-pdf.acsm?id=BOaPDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=BOaPDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        }
+      },{
+        "kind": "books#volume",
+        "id": "UKtB7_MnWQMC",
+        "etag": "G6/NnojCHb8",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/UKtB7_MnWQMC",
+        "volumeInfo": {
+          "title": "Projeto de banco de dados : Volume 4 da Série Livros didáticos informática UFRGS",
+          "authors": [
+            "Carlos Alberto Heuser"
+          ],
+          "publisher": "Bookman Editora",
+          "publishedDate": "2009-01-01",
+          "description": "A 29ª edição do Bioquímica ilustrada de Harper descreve e ilustra a bioquímica de maneira relevante, atualizada, abrangente e ainda assim relativamente concisa, além de atualizar cada capítulo, novos materiais importantes aparecem nesta edição.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_10",
+              "identifier": "8577804526"
+            },
+            {
+              "type": "ISBN_13",
+              "identifier": "9788577804528"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 281,
+          "printedPageCount": 281,
+          "printType": "BOOK",
+          "categories": [
+            "Computers / Information Technology",
+            "Mathematics / Complex Analysis"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "preview-1.0.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=UKtB7_MnWQMC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE728GjSToH4XVJWHEl0i9wQKmIVPRlnkm0zY67XUvCDp-SLcGesORcjmgpWtRkDIOZ-VR1JPTlJrHPYdZyeonLbGIIFvOozAkehFOXK7I5su04bP4LFWPdqzOMtCtmLg9C-A6pxC&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=UKtB7_MnWQMC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71Q5C7guDOlQhhQzF3tI0M707CxPqA7wqwu3fZx13ZwfjTnseT6pJ8u4sUL3scVelU5kU20H-R7KRIn8dewOT-RXXr2ykHpwmla1oEZpr3OJL-mVRiOFpz8C38-wE3yjkaIsOJK&source=gbs_api",
+            "small": "http://books.google.com/books/content?id=UKtB7_MnWQMC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70bkv_UG-kduNprIsgjr_y9j3P76wpKJZGEzP7-pvH9GbbDyVDWSmk9C-URqj0u_GwZrbVa-nusyG24RYeWCFcyOclX3uqev2PD4-7A3vorSM854E2hLJvMeNbmsGPghpJr6zRm&source=gbs_api",
+            "medium": "http://books.google.com/books/content?id=UKtB7_MnWQMC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE70mT4QMRAowf7qAZaLUWCnIX_HWlDW21DQk5NS_f_3Lend5D3YyCT7ItlPDO1fb8SjXep2_Ocdz7oW47vxS098Pj9yb9jh3ElFt9ZvIjsmZC_4ar6jE0L8LKh8n9un1cPmYAh4z&source=gbs_api",
+            "large": "http://books.google.com/books/content?id=UKtB7_MnWQMC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70aUp73dRVwFxtnECnzCuuSO1HP94-KNSyCZ0fgZR8uyp3HveQiAHSB8ulK8iTg8Ngp8akY5V0K5jPd14whxyc13cNIjEHKIVZnD2tY4e58AnKwPkY3omnh2fnPCkdz6HjCNNpD&source=gbs_api",
+            "extraLarge": "http://books.google.com/books/content?id=UKtB7_MnWQMC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70A3iio3h4gzemsf6IQGLcSpRVb40lT-ou81Z_vZ-5049C5gdRcV7XlX0waRbSh52YXOtYsnuXEywc2E6XB5i4_kQADy3xPKgX1EJF_TqBKcUFZwjtkOgu720T_WNGxKvZAdRu6&source=gbs_api"
+          },
+          "language": "pt",
+          "previewLink": "http://books.google.com.br/books?id=UKtB7_MnWQMC&hl=&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=UKtB7_MnWQMC&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=UKtB7_MnWQMC"
+        },
+        "saleInfo": {
+          "country": "BR",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 85.6,
+            "currencyCode": "BRL"
+          },
+          "retailPrice": {
+            "amount": 85.6,
+            "currencyCode": "BRL"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=UKtB7_MnWQMC&rdid=book-UKtB7_MnWQMC&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 85600000,
+                "currencyCode": "BRL"
+              },
+              "retailPrice": {
+                "amountInMicros": 85600000,
+                "currencyCode": "BRL"
+              },
+              "giftable": true
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "BR",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.br/books/download/Projeto_de_banco_de_dados_Volume_4_da_S-sample-pdf.acsm?id=UKtB7_MnWQMC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=UKtB7_MnWQMC&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        }
+    },{
+        "kind": "books#volume",
+        "id": "63iYDwAAQBAJ",
+        "etag": "l9WeXL12bdo",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/63iYDwAAQBAJ",
+        "volumeInfo": {
+          "title": "Aprendendo SQL",
+          "subtitle": "Dominando os Fundamentos de SQL",
+          "authors": [
+            "Alan Beaulieu"
+          ],
+          "publisher": "Novatec Editora",
+          "publishedDate": "2019-05-15",
+          "description": "Atualizado para os mais recentes sistemas de gerenciamento de banco de dados – incluindo MySQL 5.1, Oracle 11g e Microsoft SQL Server 2008 – este guia introdutório irá habilitar você a trabalhar com SQL rapidamente. Independentemente de precisar escrever aplicações de banco de dados, realizar tarefas administrativas ou gerar relatórios, Aprendendo SQL auxiliará você a dominar todos os fundamentos de SQL. Cada capítulo apresenta uma lição independente sobre um conceito-chave de SQL, com várias ilustrações e exemplos comentados. Exercícios no final de cada capítulo permitem praticar as habilidades aprendidas. Com este livro você irá: - Passar rapidamente pelo básico de SQL e aprender inúmeras funcionalidades avançadas. - Usar instruções de dados SQL para gerar, manipular e recuperar dados. - Criar objetos de banco de dados, como tabelas, índices e restrições, usando instruções de esquema SQL. - Aprender como os conjuntos de dados interagem com as consultas e entender a importância das subconsultas. - Converter e manipular dados usando funções nativas SQL e usar lógica condicional em instruções de dados. Conhecimento em SQL é obrigatório para quem interage com dados. Com Aprendendo SQL, você aprenderá rapidamente como colocar todo o poder e flexibilidade dessa linguagem a seu serviço.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_10",
+              "identifier": "8575227432"
+            },
+            {
+              "type": "ISBN_13",
+              "identifier": "9788575227435"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": false
+          },
+          "pageCount": 368,
+          "printedPageCount": 310,
+          "printType": "BOOK",
+          "categories": [
+            "Computers / Programming Languages / SQL"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "1.3.2.0.preview.2",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=63iYDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72CF5E2q7cr0jxTebNzSXkvEPL2kyDTs7OUmhbA_iwSB0j3jhnmTA40hX5xtBIfmTTjxUXcdaWdAorWwhCTu9c-ZstgBJYkoAnB5ZQ1ShxJZcc-ggodZ9RO9fEtgqiiAs2OzIAQ&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=63iYDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE723y6lK22ZNrTJZAjY50j_xqlop5C2A_oioTT-SdKUHzxDCgsn3usC2CJcni6eKn0GhwAg1FKXsq-v5DfxWBi0PBnGpP9UtCPwExT91OiZJTgQcOxmaDZAJbiBaTU9JFJQPPEvQ&source=gbs_api",
+            "small": "http://books.google.com/books/content?id=63iYDwAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72qkOI0rGzgrQGicBTTL0G3DczYeOgJw-fAh2gcMiRgAa_mBpcvr7BltmewyRc5CwF1x5HboBZBtXSZc_zzoGgGR1J9JoT2DgYXQwodJheLRqjD5FegtXChTA_PqedR-jKL6dNk&source=gbs_api",
+            "medium": "http://books.google.com/books/content?id=63iYDwAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE71OytMvXHe0ez10tkSsbMzU9x5Eod1Uat63De-PxKK1tIYgI7b492SoumTmk7HKwGs4-4kHlqKEIRXneKPwnuSUbFyZkGmyVkZMrrMGWEpLrvoRjeApAvEXZm-Iv6ATFOeNt4V8&source=gbs_api",
+            "large": "http://books.google.com/books/content?id=63iYDwAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72a3dgnfDEnzW7PyQ0Tzd-MjVDbX4QUNcuW2Q1oicTFplkIkj-qSgHA658Um4W8e12E1Xnp9m30nHWdb-bbsOlk3HiBxNZtwkBK5eC8mtf_mYvHZGJ0WHQZBKEepB76jUempkFp&source=gbs_api",
+            "extraLarge": "http://books.google.com/books/content?id=63iYDwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73K1iOhL8np8K7hT90V7XVLZu0FAKDydlPk18goPngZhZmpVyILoL3Gy10YqHRvw8UB71_xK0zwiDZvtwa2wHFFhrNYQXN737PjQyl2a_N_KkrjKvBXN-6FBhxyYZkxSQ4nksLs&source=gbs_api"
+          },
+          "language": "pt-BR",
+          "previewLink": "http://books.google.com.br/books?id=63iYDwAAQBAJ&hl=&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=63iYDwAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=63iYDwAAQBAJ"
+        },
+        "layerInfo": {
+          "layers": [
+            {
+              "layerId": "geo",
+              "volumeAnnotationsVersion": "4"
+            }
+          ]
+        },
+        "saleInfo": {
+          "country": "BR",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 66.4,
+            "currencyCode": "BRL"
+          },
+          "retailPrice": {
+            "amount": 66.4,
+            "currencyCode": "BRL"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=63iYDwAAQBAJ&rdid=book-63iYDwAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 66400000,
+                "currencyCode": "BRL"
+              },
+              "retailPrice": {
+                "amountInMicros": 66400000,
+                "currencyCode": "BRL"
+              },
+              "giftable": true
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "BR",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.br/books/download/Aprendendo_SQL-sample-epub.acsm?id=63iYDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=63iYDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        }
+    },{
+        "kind": "books#volume",
+        "id": "WXUCEAAAQBAJ",
+        "etag": "JjB2QP1cRiQ",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/WXUCEAAAQBAJ",
+        "volumeInfo": {
+          "title": "Learn PostgreSQL",
+          "subtitle": "Build and manage high-performance database solutions using PostgreSQL 12 and 13",
+          "authors": [
+            "Luca Ferrari",
+            "Enrico Pirozzi"
+          ],
+          "publisher": "Packt Publishing Ltd",
+          "publishedDate": "2020-10-09",
+          "description": "\u003cp\u003e\u003cb\u003eA comprehensive guide to building, managing, and securing scalable and reliable database and data warehousing applications using Postgres 12 and 13\u003c/b\u003e\u003c/p\u003eKey Features\u003cul\u003e\u003cli\u003eSet up your database cluster and monitor, secure, and fine-tune it for optimal performance\u003c/li\u003e\u003cli\u003eLearn the fundamentals of database management and implement client- and server-side programming using SQL and PL/pgSQL\u003c/li\u003e\u003cli\u003eExplore useful tips to develop efficient PostgreSQL database solutions from scratch\u003c/li\u003e\u003c/ul\u003eBook Description\u003cp\u003ePostgreSQL is one of the fastest-growing open source object-relational database management systems (DBMS) in the world. As well as being easy to use, it’s scalable and highly efficient. In this book, you’ll explore PostgreSQL 12 and 13 and learn how to build database solutions using it. Complete with hands-on tutorials, this guide will teach you how to achieve the right database design required for a reliable environment.\u003c/p\u003e \u003cp\u003eYou'll learn how to install and configure a PostgreSQL server and even manage users and connections. The book then progresses to key concepts of relational databases, before taking you through the Data Definition Language (DDL) and commonly used DDL commands. To build on your skills, you’ll understand how to interact with the live cluster, create database objects, and use tools to connect to the live cluster. You’ll then get to grips with creating tables, building indexes, and designing your database schema. Later, you'll explore the Data Manipulation Language (DML) and server-side programming capabilities of PostgreSQL using PL/pgSQL, before learning how to monitor, test, and troubleshoot your database application to ensure high-performance and reliability.\u003c/p\u003e \u003cp\u003eBy the end of this book, you'll be well-versed with the Postgres database and be able to set up your own PostgreSQL instance and use it to build robust solutions.\u003c/p\u003eWhat you will learn\u003cul\u003e\u003cli\u003eUnderstand how users and connections are managed by running a PostgreSQL instance\u003c/li\u003e\u003cli\u003eInteract with transaction boundaries using server-side programming\u003c/li\u003e\u003cli\u003eIdentify bottlenecks to maintain your database efficiently\u003c/li\u003e\u003cli\u003eCreate and manage extensions to add new functionalities to your cluster\u003c/li\u003e\u003cli\u003eChoose the best index type for each situation\u003c/li\u003e\u003cli\u003eUse online tools to set up a memory configuration that will suit most databases\u003c/li\u003e\u003cli\u003eExplore how Postgres can be used in multi-instance environments to provide high-availability, redundancy, and scalability\u003c/li\u003e\u003c/ul\u003eWho this book is for\u003cp\u003eThis Postgres book is for anyone interested in learning about the PostgreSQL database from scratch. Anyone looking to build robust data warehousing applications and scale the database for high-availability and performance using the latest features of PostgreSQL will also find this book useful. Although prior knowledge of PostgreSQL is not required, familiarity with databases is expected.\u003c/p\u003e",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_10",
+              "identifier": "1838986898"
+            },
+            {
+              "type": "ISBN_13",
+              "identifier": "9781838986896"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 650,
+          "printedPageCount": 636,
+          "printType": "BOOK",
+          "categories": [
+            "Computers / Databases / General",
+            "Computers / Databases / Data Mining",
+            "Computers / Databases / Servers"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "preview-1.0.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=WXUCEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71XxIHbLYe55x3YDlMSDHmkwzaiM5Z69HrWoz4gM--kXMFgT6gK57huzjbAMywp4GAz7K1YuXTgPWmkbaEtDhtuBDzk9AgQ0eXtCx3M8AwRrJFSYZYDf2PIrBdgk0ulwsnjNsKS&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=WXUCEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72s8J0Ignpoez_GjBidsTEHQedH_V78XC705g6BxmWld_HNYohtli3GewrDGo1AhC64XxM33tvmeVnnNbExEnqbHezLYpkMHhXo2ty3Fz-V2d4bk1pJWq-sdHNO1PaXjuL9TqBd&source=gbs_api",
+            "small": "http://books.google.com/books/content?id=WXUCEAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71oAKm4y-ELoL8CC1pa1FqM5tnJUv7Q8o4eP6hxOShF6pGGMBM-9AEQwjQZnbGh1JnoNCb5fiS3HCubrk6Zy4C3DFyF8l-wNh0miOUkjw0dXmzs419g2B3720AlrPy3ouhRDB0Z&source=gbs_api",
+            "medium": "http://books.google.com/books/content?id=WXUCEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73ykBhbnmUi7bdTGpgbHljJUnaETRb5crhYcDaGs-P5HpkuFI3lBtXNjmxl0Uj4sOi79os2BYnEaduHLDMO2aFInbmt6xo83N9z3H1VsUwzc-boMp2oZsi93DrQpIAgmonnISQi&source=gbs_api",
+            "large": "http://books.google.com/books/content?id=WXUCEAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE708d6ZJahLbdFbSp66nmiJzImA-OeJLcnxIC7VhsR83NKFlnqerktNuWS3vPFaQBKM321b6PXr6JNMHgslrJdY1kXcyUaWre54NRxaiB7PqYHNBV5pRtt4lJF5Jao1byAzxXLs5&source=gbs_api",
+            "extraLarge": "http://books.google.com/books/content?id=WXUCEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71sI5gO7m0AjbGkuUSQO9n6cvMW9EXXw2BHtA1vV3LQwrENFRjD8cRKVTD6EOTU70WLH9jnAJt0rug5bMTULLb1ktC2mnq4qGtbiZbPjY1mB2gFTxS3IWDmaqdsmBnq-S4EHJ_m&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com.br/books?id=WXUCEAAAQBAJ&hl=&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=WXUCEAAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=WXUCEAAAQBAJ"
+        },
+        "layerInfo": {
+          "layers": [
+            {
+              "layerId": "geo",
+              "volumeAnnotationsVersion": "2"
+            }
+          ]
+        },
+        "saleInfo": {
+          "country": "BR",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 120.99,
+            "currencyCode": "BRL"
+          },
+          "retailPrice": {
+            "amount": 120.99,
+            "currencyCode": "BRL"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=WXUCEAAAQBAJ&rdid=book-WXUCEAAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 120990000,
+                "currencyCode": "BRL"
+              },
+              "retailPrice": {
+                "amountInMicros": 120990000,
+                "currencyCode": "BRL"
+              },
+              "giftable": true
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "BR",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true
+          },
+          "pdf": {
+            "isAvailable": true
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=WXUCEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        }
+    },{
+        "kind": "books#volume",
+        "id": "eABpzyTcJNIC",
+        "etag": "dIMriLKqP98",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/eABpzyTcJNIC",
+        "volumeInfo": {
+          "title": "REST API Design Rulebook",
+          "subtitle": "Designing Consistent RESTful Web Service Interfaces",
+          "authors": [
+            "Mark Masse"
+          ],
+          "publisher": "\"O'Reilly Media, Inc.\"",
+          "publishedDate": "2011-10-18",
+          "description": "\u003cp\u003eIn today’s market, where rival web services compete for attention, a well-designed REST API is a must-have feature. This concise book presents a set of API design rules, drawn primarily from best practices that stick close to the Web’s REST architectural style. Along with rules for URI design and HTTP use, you’ll learn guidelines for media types and representational forms.\u003c/p\u003e\u003cp\u003eREST APIs are ubiquitous, but few of them follow a consistent design methodology. Using these simple rules, you will design web service APIs that adhere to recognized web standards. To assist you, author Mark Massé introduces the Web Resource Modeling Language (WRML), a conceptual framework he created for the design and implementation of REST APIs.\u003c/p\u003e\u003cul\u003e\u003cli\u003eLearn design rules for addressing resources with URIs\u003c/li\u003e\u003cli\u003eApply design principles to HTTP’s request methods and response status codes\u003c/li\u003e\u003cli\u003eWork with guidelines for conveying metadata through HTTP headers and media types\u003c/li\u003e\u003cli\u003eGet design tips to address the needs of client programs, including the special needs of browser-based JavaScript clients\u003c/li\u003e\u003cli\u003eUnderstand why REST APIs should be designed and configured, not coded\u003c/li\u003e\u003c/ul\u003e",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_10",
+              "identifier": "1449319904"
+            },
+            {
+              "type": "ISBN_13",
+              "identifier": "9781449319908"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 116,
+          "printedPageCount": 115,
+          "printType": "BOOK",
+          "categories": [
+            "Computers / Web / Web Services & APIs",
+            "Computers / Software Development & Engineering / General",
+            "Computers / Web / Web Programming"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "0.3.4.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=eABpzyTcJNIC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE73oJoxCGHkvdr8aTzDXTlvbh2wdQseECi2LM8hL6xR1RkWftBdxcMWFNdacGJaXNrxkKtF7233omKbEB19k88JKg1BDhEINFvnCX2AKOW0ZdlbvX8wyle_stuJ-tbF4TkP3D_3u&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=eABpzyTcJNIC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72dw9B3Iv2uxgfaXqhSN5U2febchJT9VFwlM_uE2r1SOKhkTWIEwecHzKL9tdx5z7GAWsivJ9eXWx8DdIkwul9mEqnYpo1XiO_zbWgcEySjLpt9JOC-BT5SsqwvWq-SYmHioTSN&source=gbs_api",
+            "small": "http://books.google.com/books/content?id=eABpzyTcJNIC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73xYFycQcVoK8LJEhVRkITzQCsk3X9Q7GhSAndSIjWu0mBBlf7V07QklkWpMooVcSAFabaL27Ipc9Q7RBNlRGo7ERN--rJrfaXsH1fRDacUcUWOF6zwpjENWiekf0deGbZ6ClLT&source=gbs_api",
+            "medium": "http://books.google.com/books/content?id=eABpzyTcJNIC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73_NKaTe8AQZaXsEa0QWUUQy74b3RJSppJ7nfovWftAMiMLCC6GndWGVtsley8_DDoeuTB7xUcjmAGI5BhBiEAjb6-bfF_mjZbypcUYy5UkwOzsFEuaObezHg5DaYAoSLEGwf8B&source=gbs_api",
+            "large": "http://books.google.com/books/content?id=eABpzyTcJNIC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE71AqW8C8Du3pxNyZ9mjy11jRzuS433nwrJgN8aMX-Ru5RC4NBbmxTtGEHyz_Z5rWOZAfoQpZuClK4DzBKr_mtmPvbiBZS8dGhGG_Gf_zfBX3ECHUpFfuKErGl3AVoue2xkW0z0C&source=gbs_api",
+            "extraLarge": "http://books.google.com/books/content?id=eABpzyTcJNIC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73p3asCbU00Hz0_U4_Szm5kk74imYYEp40sXZ1SuP-6eJfzuCqOX0jSMtEqRN76PqrtFTJ34s2tSW4N8Voh6tDmyruPHnIpTeCRZZ3BmxWV9h34Q4LyLyVyexAikIywEjfmHOzV&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com.br/books?id=eABpzyTcJNIC&hl=&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=eABpzyTcJNIC&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=eABpzyTcJNIC"
+        },
+        "layerInfo": {
+          "layers": [
+            {
+              "layerId": "geo",
+              "volumeAnnotationsVersion": "6"
+            }
+          ]
+        },
+        "saleInfo": {
+          "country": "BR",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 24.99,
+            "currencyCode": "BRL"
+          },
+          "retailPrice": {
+            "amount": 24.99,
+            "currencyCode": "BRL"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=eABpzyTcJNIC&rdid=book-eABpzyTcJNIC&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 24990000,
+                "currencyCode": "BRL"
+              },
+              "retailPrice": {
+                "amountInMicros": 24990000,
+                "currencyCode": "BRL"
+              },
+              "giftable": true
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "BR",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true
+          },
+          "pdf": {
+            "isAvailable": true
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=eABpzyTcJNIC&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        }
+    }
+]
