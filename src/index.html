@@ -7,64 +7,62 @@
     <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-cor1">
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-cor1">
+            <div class="container">
+                <a class="navbar-brand cor2" href="#">Visar Livros</a>
+            </div>
+        </nav>
         <div class="container">
-            <a class="navbar-brand cor2" href="#">Visar Livros</a>
-        </div>
-    </nav>
-    <div class="container">
-        <div class="container-p mt-5 mx-auto bg-cor1 rounded">
-            <div class="tipodepesquisa">
-                <div class="pesquisainput">
-                    <h3 class="cor2">Pesquisa por:</h3>
-                    <div class="radionContainer">
-                        <div class="form-check btn btn-light form-check-inline px-4 py-2 radiobtn" style="margin-left: 0;">
-                            <input type="radio" class="form-check-input" id="Título" name="pesquisarPor" checked>
-                            <label class="form-check-label cor2" for="Título">Título</label>
+            <div class="container-p mt-5 mx-auto bg-cor1 rounded">
+                <div class="tipodepesquisa">
+                    <div class="pesquisainput">
+                        <h3 class="cor2">Pesquisa por:</h3>
+                        <div class="radionContainer">
+                            <div class="form-check btn btn-light form-check-inline px-4 py-2 radiobtn" style="margin-left: 0;">
+                                <input type="radio" class="form-check-input" id="Título" name="pesquisarPor" checked>
+                                <label class="form-check-label cor2" for="Título">Título</label>
+                            </div>
+                            <div class="form-check btn btn-light form-check-inline px-4 py-2 radiobtn">
+                                <input type="radio" class="form-check-input" id="Autor" name="pesquisarPor">
+                                <label class="form-check-label cor2" for="Autor">Autor</label>
+                            </div>
+                            <div class="form-check btn btn-light form-check-inline px-4 py-2 radiobtn">
+                                <input type="radio" class="form-check-input" id="Editora" name="pesquisarPor">
+                                <label class="form-check-label cor2" for="Editora">Editora</label>
+                            </div>
+                            <div class="form-check btn btn-light form-check-inline px-4 py-2 radiobtn">
+                                <input type="radio" class="form-check-input" id="Gênero" name="pesquisarPor">
+                                <label class="form-check-label cor2" for="Gênero">Gênero</label>
+                            </div>                        
                         </div>
-                        <div class="form-check btn btn-light form-check-inline px-4 py-2 radiobtn">
-                            <input type="radio" class="form-check-input" id="Autor" name="pesquisarPor">
-                            <label class="form-check-label cor2" for="Autor">Autor</label>
-                        </div>
-                        <div class="form-check btn btn-light form-check-inline px-4 py-2 radiobtn">
-                            <input type="radio" class="form-check-input" id="Editora" name="pesquisarPor">
-                            <label class="form-check-label cor2" for="Editora">Editora</label>
-                        </div>
-                        <div class="form-check btn btn-light form-check-inline px-4 py-2 radiobtn">
-                            <input type="radio" class="form-check-input" id="Gênero" name="pesquisarPor">
-                            <label class="form-check-label cor2" for="Gênero">Gênero</label>
-                        </div>                        
                     </div>
                 </div>
+                <div class="container blocopesquisa">
+                    <div class="inputArea">
+                        <form class="form-inline" id="pesquisaTxt">
+                            <input class="form-control mr-2" type="search" aria-label="Search" id="searchInput">
+                            <button class="btn btn-dark" type="submit" id="searchBtn">Pesquisar</button>
+                        </form>
+                    </div>
+                </div>     
             </div>
-            <div class="container blocopesquisa">
-                <div class="addNome">
-                    <form class="form-inline" id="pesquisaTxt">
-                        <input class="form-control mr-sm-2" type="search" aria-label="Search" id="navBarInput">
-                        <button class="btn btn-dark my-2 my-sm-0" type="submit" id="navBarSearchbtn">Pesquisar</button>
-                    </form>
+
+            <div class="mt-5 mb-5 livros" style="border-radius: .5rem .5rem .25rem .25rem">
+                <div class="carrousel_head bg-cor1 text-light rounded-top" id="displayHeader">
+                <p class="cor2 my-1">
+                        <!-- Título dinâmico -->
+                    </p>
                 </div>
-            </div>     
-        </div>
-
-
-        <div class="mt-5 mb-5 livros" style="border-radius: .5rem .5rem .25rem .25rem">
-            <div class="carrousel_head bg-cor1 text-light rounded-top" id="displayHeader">
-               <p class="cor2 my-1">
-                    <!-- Título dinâmico -->
-                </p>
+                <div class="card-container" id="displayCards">
+                    <!-- Cards dinâmicos -->
+                </div>
             </div>
-            <div class="card-container" id="displayCards">
-                <!-- Cards dinâmicos -->
-            </div>
+
         </div>
-
-
-    </div>
-    <script src="./js/pushCard.js"></script>
-    <script src="./js/search.js"></script>
-    <script src="./main.js"></script>
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
-</body>
+        <script src="./js/pushCard.js"></script>
+        <script src="./js/search.js"></script>
+        <script src="./main.js"></script>
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    </body>
 </html>

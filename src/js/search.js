@@ -11,7 +11,6 @@ const search = async (nome, limite) => {
         // formação do link de pesquisa
         const linkDeBusca_1 = await new Promise(resolve => {
             let linkDeBusca = "https://www.googleapis.com/books/v1/volumes?q=" + getTipoSel() + nome
-            console.log(linkDeBusca)
             if (limite !== undefined) linkDeBusca += "&maxResults=" + limite
             else linkDeBusca += "&maxResults=" + 15
             resolve(linkDeBusca)

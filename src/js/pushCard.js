@@ -1,7 +1,5 @@
 // recebe um json com os dados de um livro e o insere no container de livros
 const pushCard = (livro) => {
-
-    console.log(livro)
     const cartao = document.createElement("div");
     cartao.className = "cartao";
     cartao.id = livro.id

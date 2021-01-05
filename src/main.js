@@ -15,12 +15,12 @@ window.onload = () => {
 }
 
 // bloco de pesquisa
-const navbarInput = document.querySelector("#navBarInput");
-const navBarSearchbtn = document.querySelector("#navBarSearchbtn")
+const searchInput = document.querySelector("#searchInput");
+const searchBtn = document.querySelector("#searchBtn")
 
-navBarSearchbtn.addEventListener("click", (e) => {
+searchBtn.addEventListener("click", (e) => {
     e.preventDefault()
-    const texto = navbarInput.value
+    const texto = searchInput.value
     let tipo = document.querySelector('input[name="pesquisarPor"]:checked').id
 
     search(texto, undefined).then((ret) => {
