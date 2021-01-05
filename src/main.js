@@ -7,7 +7,7 @@ const resetContainer = (headerName) => {
 
 window.onload = () => {
     search("programming", 12).then((ret) => {
-        resetContainer("Popular sobre Programação")
+        resetContainer("Escolhas da Plataforma")
         ret.forEach(livro => {
             pushCard(livro)
         });
@@ -21,9 +21,11 @@ const navBarSearchbtn = document.querySelector("#navBarSearchbtn")
 navBarSearchbtn.addEventListener("click", (e) => {
     e.preventDefault()
     const texto = navbarInput.value
+    let tipo = document.querySelector('input[name="pesquisarPor"]:checked').id
+
     search(texto, undefined).then((ret) => {
         if (ret) {
-            resetContainer("Resultados da Pesquisa: " + texto)
+            resetContainer("Resultados da Pesquisa: " + tipo + " = " + texto)
             ret.forEach(livro => {
                 pushCard(livro)
             })            

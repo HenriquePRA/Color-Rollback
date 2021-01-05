@@ -41,10 +41,10 @@ const idSearch = async (id) => {
 // função que busca o button selecionado 
 const getTipoSel = () => {
     const listaOpcoes = {
-        "tituloRadio":"",
-        "autorRadio":"inauthor:",
-        "editoraRadio":"inpublisher:",
-        "generoRadio":"subject:"
+        "Título":"",
+        "Autor":"inauthor:",
+        "Editora":"inpublisher:",
+        "Gênero":"subject:"
     }
     const selecionado = document.querySelector('input[name="pesquisarPor"]:checked')
     if (selecionado) return listaOpcoes[selecionado.id]
