@@ -9,15 +9,15 @@
 </head>
     <body>
         <!-- navbar superior -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-cor1">
+        <header class="navbar navbar-expand-lg navbar-dark bg-cor1">
             <div class="container">
                 <a class="navbar-brand cor2" href="#">Visar Livros</a>
             </div>
-        </nav>
+        </header>
         <div class="container">
 
             <!-- bloco de pesquisa -->
-            <div class="container-p mt-5 mx-auto bg-cor1 rounded">
+            <div class="container-p mt-6 mx-auto bg-cor1 rounded">
                 <div class="tipodepesquisa">
                     <div class="pesquisainput">
                         <h3 class="cor2">Pesquisa por:</h3>
@@ -52,7 +52,7 @@
             </div>
 
             <!-- bloco de exibição de livros -->
-            <div class="mt-5 livros" style="border-radius: .5rem .5rem .25rem .25rem">
+            <div class="mt-6 livros" style="border-radius: .5rem .5rem .25rem .25rem">
                 <div class="carrousel_head bg-cor1 text-light rounded-top" id="displayHeader">
                 <p class="cor2 my-1">
                         <!-- Título dinâmico -->
@@ -91,7 +91,7 @@
                             </div>   
                         </div>
                     </div>
-                    <h5 class="pt-4 px-4"><b>Descrição</b></h5>
+                    <div class="my-3 px-4"><b>Descrição</b></div>
                     <div class="mb-4 px-4" id="displayDescription">
                     </div>
                     <div class="mb-4 px-4">
@@ -100,6 +100,31 @@
                 </div>
             </div>
         </div>
+
+        <!-- footer -->
+        <footer class="bg-cor2 mt-6">
+            <div class="container py-5">
+                <div class="row py-3" style="justify-content: center">
+                    <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                        <h6 class="text-uppercase font-weight-bold mb-4">Sobre</h6>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2"><a href="https://github.com/HenriquePRA" class="text-muted">Desenvolvedor</a></li>
+                            <li class="mb-2"><a href="https://github.com/HenriquePRA/Visar-Livros" class="text-muted">Projeto</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-lg-0">
+                        <h6 class="text-uppercase font-weight-bold mb-4">Uso do projeto</h6>
+                        <p class="text-muted mb-4">Sinta-se livre para usar esse projeto como bem entender, qualquer dúvida respondo o mais rapido que puder.</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="p-0 m-0 b-0">
+            <div class="bg-cor1 py-2">
+                <div class="container text-center">
+                    <p class="text-dark mb-0 py-2">&#9829; 2019 Feito com café e Javascript.</p>
+                </div>
+            </div>
+        </footer>
         <script src="./js/pushCard.js"></script>
         <script src="./js/search.js"></script>
         <script src="./main.js"></script>
