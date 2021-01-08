@@ -1,6 +1,18 @@
+// função que busca o button com o tipo de pesquisa selecionada 
+const getTipoSel = () => {
+    const listaOpcoes = {
+        "Título":"",
+        "Autor":"inauthor:",
+        "Editora":"inpublisher:",
+        "Gênero":"subject:"
+    }
+    const selecionado = document.querySelector('input[name="pesquisarPor"]:checked')
+    if (selecionado) return listaOpcoes[selecionado.id]
+    else return ""
+} 
 
 // função que busca multiplos livros na api do google books
-const search = async (nome, limite) => {
+export const search = async (nome, limite) => {
     getTipoSel()
     if ((nome === "") || (nome === null)) {
         alert("Campo de pesquisa vazio !")
@@ -26,7 +38,7 @@ const search = async (nome, limite) => {
 }
 
 // função que busca um unico livro na api do google
-const idSearch = async (id) => {
+export const idSearch = async (id) => {
     if (!id) {
         alert("Erro ao abrir o livro, recarregue a página ou tente novamente !")
     } else {
@@ -35,17 +47,3 @@ const idSearch = async (id) => {
         return resjson
     }
 }
-
-
-// função que busca o button selecionado 
-const getTipoSel = () => {
-    const listaOpcoes = {
-        "Título":"",
-        "Autor":"inauthor:",
-        "Editora":"inpublisher:",
-        "Gênero":"subject:"
-    }
-    const selecionado = document.querySelector('input[name="pesquisarPor"]:checked')
-    if (selecionado) return listaOpcoes[selecionado.id]
-    else return ""
-} 

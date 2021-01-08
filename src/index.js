@@ -1,3 +1,21 @@
+import { search } from "./js/search"
+import { pushCard } from "./js/pushcard"
+
+// Script carregado apenas quando a página carrega
+window.onload = () => {
+    fetch("./src/indicacoes.json")
+    .then(async (indicacoes) => {
+        resetContainer("Escolhas da Plataforma")
+        indicacoes = await indicacoes.json()        
+        indicacoes.forEach(livro => {
+            pushCard(livro)
+        });
+    }).catch(e => {
+        console.log(e)
+    })
+}
+
+// Função que renomeia o header do contaider dos cards e apaga seu conteudo
 const resetContainer = (headerName) => {
     const header = document.querySelector("#displayHeader").firstElementChild
     header.innerHTML = headerName
@@ -5,24 +23,10 @@ const resetContainer = (headerName) => {
     CardsContainer.innerHTML = ""
 }
 
-window.onload = () => {
-    fetch("./js/indicacoes.json")
-    .then(async (indicacoes) => {
-        resetContainer("Escolhas da Plataforma")
-        indicacoes = await indicacoes.json()        
-        indicacoes.forEach(livro => {
-            pushCard(livro)
-        });
-    })
-}
-
 // bloco de pesquisa
-const searchInput = document.querySelector("#searchInput");
-const searchBtn = document.querySelector("#searchBtn")
-
-searchBtn.addEventListener("click", (e) => {
+document.querySelector("#searchBtn").addEventListener("click", (e) => {
     e.preventDefault()
-    const texto = searchInput.value
+    const texto = document.querySelector("#searchInput").value
     let tipo = document.querySelector('input[name="pesquisarPor"]:checked').id
 
     search(texto, undefined).then((ret) => {
@@ -42,8 +46,7 @@ document.querySelectorAll(".radiobtn").forEach(btn => {
 })
 
 // fechar modal 
-const btnfechar = document.querySelector(".fechar")
-btnfechar.addEventListener("click", () => {
+document.querySelector(".fechar").addEventListener("click", () => {
     let modalLivro = document.querySelector(".modalLivro");
     modalLivro.style.opacity = "0"
     setTimeout(() => {

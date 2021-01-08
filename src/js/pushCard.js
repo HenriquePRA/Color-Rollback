@@ -1,6 +1,6 @@
-const pushModal = (livro) => {
+import { idSearch } from "./search";
 
-    console.log(livro)
+const pushModal = (livro) => {
 
     // titulo
     const titulo = document.querySelector("#tituloDisplay")
@@ -101,7 +101,7 @@ const pushModal = (livro) => {
 }
 
 // recebe um json com os dados de um livro e o insere no container de livros
-const pushCard = (livro) => {
+export const pushCard = (livro) => {
     const cartao = document.createElement("div");
     cartao.className = "cartao";
     cartao.id = livro.id
@@ -172,12 +172,12 @@ const pushCard = (livro) => {
         sub_descri = livro.volumeInfo.title + ", não possúi descrição."
     }
     
-    descricao.innerHTML = sub_descri
+    descricao.innerHTML = sub_descri;
 
     txtContainer.appendChild(cardtitle);
     txtContainer.appendChild(carddescricao)
-    cartao.appendChild(cardimg)
-    cartao.appendChild(txtContainer)
+    cartao.appendChild(cardimg);
+    cartao.appendChild(txtContainer);
 
-    document.querySelector("#displayCards").appendChild(cartao)
+    document.querySelector("#displayCards").appendChild(cartao);
 }
