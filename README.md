@@ -44,20 +44,26 @@ Apesar de fazer o uso do framework bootstrap possúi folha de estilos própria d
 <a name="req"></a>
 - <b>Uso de programação funcional:</b> todos os scripts do projeto se comunicam com a página apenas através de funções. 
 - <b>Criação de componentes dinâmicos:</b> Tanto o compenente que exibe os resultados quanto o que exibe um livro são dinâmicos.
-- <b>Uso do FETCH API e JSON:</b> ao carregar a página antes que seja feita qualquer pesquisa é carregado um JSON com as informações
-de um conjunto de livros através do FETCH API.
+- <b>Uso do FETCH API e JSON:</b> ao carregar a página através do FETCH API é carregado um JSON com as informações de um conjunto 
+de livros.
 - <b>Uso de RegExp:</b> Usa de expressões regulares para remover tags de html que geralmente estão contidas na descrição
 de um livro
-- <b>Uso de pacotes do JS:</b> Faz uso do poopersjs
-- <b>Uso de módulos com Webpack</b> EM ANDAMENTO
+- <b>Uso de pacotes do JS:</b> Faz uso do babeljs para transpilar o código javascript moderno usado no projeto para um cógido
+javascript em uma versão antiga de forma suportar que o projeto suporte browsers mais antigos.
+- <b>Uso de módulos com Webpack</b> Sim, faz uso de 2 módulos, pushcard.js que exporta funções responsáveis por receber, tratar e 
+inserir dados de um JSON no código da página, e search.js que exporta funções responsáveis por realizar as buscas googlebooks do 
+que for pesquisado.
 
 <a name="Status"></a>
-## Status do Projeto
-🚧  Sob atualização...  🚧
+## Status do Projeto :tada:
+Finalizado ✌️
 
 <a name="instalação"></a>
 ## Instalando e executando o projeto :running:
 
 1. Clone o repositório.
-2. Instale o npm em sua versão estável mais recente
-3. Dentro do diretório visar livros execute o comando npx serve
+2. Caso não tenha instale o npm em sua versão estável mais recente.
+3. Abra um terminal e navegue até o diretório do projeto.
+4. Execute o comando npm install.
+5. Execute o comando npm start.
+6. Em seu navegador acesse o link mostrado no terminal pelo serve.
