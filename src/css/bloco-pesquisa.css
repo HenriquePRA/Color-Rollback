@@ -1,0 +1,71 @@
+/*---------------------------------------- bloco de pesquisa ---------------------------------------*/
+
+.blocopesquisa {
+    display: flex;
+    border-radius: .5rem;
+    flex-direction: column;
+}
+.tipodepesquisa {
+    display: flex;
+    flex-direction: column;
+}
+.tipodepesquisa .pesquisainput {
+    padding: 2rem 1rem 0 1rem;
+    margin: 0 auto 0 auto;
+}
+.pesquisainput h3 {
+    font-family: AmaticBold;
+}
+.radionContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tipodepesquisa .radiobtn {
+    margin: .3rem 0 0 .3rem;
+    cursor: pointer;
+    width: 8.2rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.radionContainer .form-check .form-check-input {
+    float: left;
+    margin-left: 0;
+}
+.radiobtn label {
+    cursor: pointer;
+}
+.blocopesquisa input {
+    width: 27.5rem;
+}
+.blocopesquisa .inputArea {
+    margin: auto;
+}
+.blocopesquisa #pesquisaTxt {
+    margin: 1.5rem auto 3rem auto;
+}
+.blocopesquisa .form-inline {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.blocopesquisa.form-inline .btn {
+    margin-left: .5rem;
+}
+#searchInput {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12), inset 0 1px 2px rgba(0, 0, 0, 0.24);
+    border: 0px;
+}
+@media screen and (max-width: 768px) {
+    #searchInput {
+        width: 19rem;
+    }
+}
+@media screen and (max-width: 575px) {
+    #searchInput {
+        width: initial;
+    }
+}
+#searchBtn {
+    margin-left: .25rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
